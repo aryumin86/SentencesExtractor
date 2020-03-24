@@ -1,12 +1,12 @@
 <div class="statTabMainContainer">
   <div class="settingsAndButtons">
-    <div class="settingsElem">
+    <div class="settingsElem minFreq">
       <mat-form-field>
         <mat-label>Минимальная частота</mat-label>
         <input matInput placeholder="Введите ее!" value="10">
       </mat-form-field>
     </div>
-    <div class="settingsElem">
+    <div class="settingsElem maxElemsOnPage">
       <mat-form-field>
         <mat-label>Максимум элементов на странице</mat-label>
         <mat-select [(value)]='maxElemsToShowSelect' (selectionChange)='maxElemsToShowChanged($event)'>
@@ -19,32 +19,31 @@
         </mat-select>
       </mat-form-field>
     </div>
-    <div class="settingsElem">
+    <div class="settingsElem showWordsFreq">
       <button mat-stroked-button>Показать частоты слов</button>
     </div>
-    <div class="settingsElem">
+    <div class="settingsElem removeStopWords">
       <input type='checkbox' value="0" checked='checked' name="clearStopWordsChB">
       <label for="clearStopWordsChB">Убрать стоп слова</label>
     </div>
     <div class="settingsElem matrixExport">
       <button mat-stroked-button>Экспорт term-text матрицы</button>
     </div>
-    <div class="settingsElem">
-      <mat-form-field class="biGrammsBaseInput">
-        <textarea [(ngModel)]='biGrammsBaseInput' rows="1" style="resize: none;" matInput placeholder="Основы биграмм"></textarea>
+    <div class="settingsElem biGrammsBaseInput">
+      <mat-form-field >
+        <textarea [(ngModel)]='biGrammsBaseInput' rows="5" style="resize: none;"
+          matInput placeholder="Основы биграмм"></textarea>
       </mat-form-field>
     </div>
-    <div class="settingsElem">
-      <button mat-stroked-button>Морфология для биграмм</button>
+    <div class="settingsElem morfologyButton">
+      <button (click)='setWordForms()' mat-stroked-button [disabled]='biGrammsBaseInput.length == 0'>Морфология для биграмм</button>
     </div>
-    <div class="settingsElem">
+    <div class="settingsElem showBiGrammFreq">
       <button mat-stroked-button>Показать частоты биграмм</button>
     </div>
-    <div class="settingsElem">
+    <div class="settingsElem freqExportButton">
       <input type='checkbox' value="0" name="checkAllElemsChB">
       <label for="checkAllElemsChB">Выбрать все</label>
-    </div>
-    <div class="settingsElem freqExportButton">
       <button mat-stroked-button>Экспорт частот</button>
     </div>
   </div>

@@ -4,26 +4,65 @@
 
 .settingsAndButtons {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 5fr;
-    /* margin: 2em 1em; */
-    /* grid-template-rows: 1fr 1fr; */
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 2fr;
+    grid-template-rows: max-content;
     grid-template-areas:
-        'a a a a a'
-        'a a a a a';
+        'biGrammsWords maxElemsOnPage showWordsFreq minFreq . matrixExport'
+        'biGrammsWords morfologyButton showBiGrammFreq removeStopWords selectAllWords freqExportButton';
     justify-content: start;
     grid-column-gap: .5vw;
-    /* grid-row-gap: .1vw; */
-    grid-auto-rows: min-content;
 }
 
-.freqExportButton, .matrixExport {
+.minFreq {
+    grid-area: minFreq;
+}
+
+.biGrammsBaseInput {
+    grid-area: biGrammsWords;
+}
+
+.maxElemsOnPage {
+    grid-area: maxElemsOnPage;
+}
+
+.showWordsFreq {
+    grid-area: showWordsFreq;
+}
+
+.showBiGrammFreq {
+    grid-area: showBiGrammFreq;
+}
+
+.removeStopWords {
+    grid-area: removeStopWords;
+}
+
+.matrixExport {
+    grid-area: matrixExport;
+}
+
+.freqExportButton {
+    grid-area: freqExportButton;
+}
+
+.morfologyButton {
+    grid-area: morfologyButton;
+}
+
+.selectAllWords {
+    grid-area: selectAllWords;
+}
+
+
+.freqExportButton, .matrixExport, .selectAllWords  {
     justify-self: end !important;
 }
 
 .settingsElem {
-    /* margin: 0 .5vw; */
-    /* display: flex; */
-    /* justify-self: stretch; */
+    display: inline-block;
+}
+.settingsElem >  label {
+    margin-right: 1vw;
 }
 
 .statsContainer {
