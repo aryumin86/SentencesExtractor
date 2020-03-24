@@ -1,0 +1,31 @@
+
+<div class="texts-ops-block">
+  <div class="textsCountContainer">
+    <h3>Загружено текстов: {{texts.length}}</h3> 
+  </div>
+  <button mat-stroked-button (click)='onTextsLoadClicked()'>
+    <span>Загрузить</span>
+    <input style='display: none;' id="upload-texts-input" #file (change)="upload(file.files)" multiple type="file" accept='text/plain' />
+  </button>
+  <button mat-stroked-button (click)='onTextsClearClicked()' [disabled]='texts.length == 0'>Очистить</button>
+</div>
+
+<div fxLayout="row wrap">
+  <div *ngFor="let text of texts">
+    <mat-card class="text-card" *ngIf='text.id < 50'>
+      <mat-card-header>
+        <mat-card-title>id: #{{text.id}}, {{text.content.length}} символов</mat-card-title>
+        <mat-card-subtitle>Файл: {{text.fileName}}</mat-card-subtitle>
+      </mat-card-header>
+      <mat-card-content>
+        <p>{{text.contentAnnotation}}</p>
+      </mat-card-content>
+      <mat-card-actions>
+        <button mat-stroked-button (click)='openFullTextInModal(text)'>Глянуть</button>
+        <button mat-stroked-button (click)='deleteText(text.id)'>Грохнуть</button>
+      </mat-card-actions>
+    </mat-card>
+  </div>
+</div>
+
+

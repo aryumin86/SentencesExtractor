@@ -1,0 +1,1803 @@
+INFO  11 Mar 2020 21:32:49 Now listening on: http://localhost:44381
+INFO  11 Mar 2020 21:32:49 Application started. Press Ctrl+C to shut down.
+INFO  11 Mar 2020 21:32:49 Hosting environment: Development
+INFO  11 Mar 2020 21:32:49 Content root path: /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi
+WARN  11 Mar 2020 21:32:49 Failed to determine the https port for redirect.
+INFO  11 Mar 2020 21:33:02 ::1: Word forms requested for word: 'картошка'
+INFO  11 Mar 2020 21:33:08 ::1: Word forms requested for word: ''
+INFO  11 Mar 2020 21:40:58 Now listening on: http://localhost:44381
+INFO  11 Mar 2020 21:40:58 Application started. Press Ctrl+C to shut down.
+INFO  11 Mar 2020 21:40:58 Hosting environment: Development
+INFO  11 Mar 2020 21:40:58 Content root path: /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi
+WARN  11 Mar 2020 21:40:58 Failed to determine the https port for redirect.
+INFO  11 Mar 2020 21:41:14 ::1: Word forms requested for word: ''
+ERROR 11 Mar 2020 21:41:25 ::1:    at ssentencesExtractorApi.Repos.LingvRepo.GetWordForms(String wordForm) in /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi/Repos/LingvRepo.cs:line 31
+   at ssentencesExtractorApi.Controllers.LingvController.GetWordForms(String wordForm) in /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi/Controllers/LingvController.cs:line 29
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at ssentencesExtractorApi.ExceptionsHandlerMiddleware.Invoke(HttpContext context) in /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi/ExceptionsHandlerMiddleware.cs:line 25
+INFO  15 Mar 2020 22:05:43 Now listening on: http://localhost:44381
+INFO  15 Mar 2020 22:05:43 Application started. Press Ctrl+C to shut down.
+INFO  15 Mar 2020 22:05:43 Hosting environment: Development
+INFO  15 Mar 2020 22:05:43 Content root path: /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi
+INFO  15 Mar 2020 22:07:42 Application is shutting down...
+INFO  15 Mar 2020 22:08:40 Now listening on: http://localhost:44381
+INFO  15 Mar 2020 22:08:40 Application started. Press Ctrl+C to shut down.
+INFO  15 Mar 2020 22:08:40 Hosting environment: Development
+INFO  15 Mar 2020 22:08:40 Content root path: /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi
+INFO  15 Mar 2020 22:09:12 Application is shutting down...
+INFO  15 Mar 2020 22:09:20 Now listening on: http://localhost:44381
+INFO  15 Mar 2020 22:09:20 Application started. Press Ctrl+C to shut down.
+INFO  15 Mar 2020 22:09:20 Hosting environment: Development
+INFO  15 Mar 2020 22:09:20 Content root path: /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi
+INFO  15 Mar 2020 22:27:31 Application is shutting down...
+INFO  15 Mar 2020 22:28:06 Now listening on: http://localhost:44381
+INFO  15 Mar 2020 22:28:06 Application started. Press Ctrl+C to shut down.
+INFO  15 Mar 2020 22:28:06 Hosting environment: Development
+INFO  15 Mar 2020 22:28:07 Content root path: /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi
+WARN  15 Mar 2020 22:28:07 Failed to determine the https port for redirect.
+INFO  15 Mar 2020 22:39:22 Now listening on: http://localhost:44381
+INFO  15 Mar 2020 22:39:23 Application started. Press Ctrl+C to shut down.
+INFO  15 Mar 2020 22:39:23 Hosting environment: Development
+INFO  15 Mar 2020 22:39:23 Content root path: /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi
+WARN  15 Mar 2020 22:39:23 Failed to determine the https port for redirect.
+INFO  15 Mar 2020 22:42:12 Now listening on: http://localhost:44381
+INFO  15 Mar 2020 22:42:12 Application started. Press Ctrl+C to shut down.
+INFO  15 Mar 2020 22:42:12 Hosting environment: Development
+INFO  15 Mar 2020 22:42:12 Content root path: /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi
+WARN  15 Mar 2020 22:42:12 Failed to determine the https port for redirect.
+INFO  15 Mar 2020 22:52:46 Now listening on: http://localhost:44381
+INFO  15 Mar 2020 22:52:46 Application started. Press Ctrl+C to shut down.
+INFO  15 Mar 2020 22:52:47 Hosting environment: Development
+INFO  15 Mar 2020 22:52:47 Content root path: /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi
+WARN  15 Mar 2020 22:52:47 Failed to determine the https port for redirect.
+INFO  15 Mar 2020 22:53:43 Now listening on: http://localhost:44381
+INFO  15 Mar 2020 22:53:43 Application started. Press Ctrl+C to shut down.
+INFO  15 Mar 2020 22:53:43 Hosting environment: Development
+INFO  15 Mar 2020 22:53:43 Content root path: /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi
+WARN  15 Mar 2020 22:53:44 Failed to determine the https port for redirect.
+INFO  15 Mar 2020 22:55:04 Now listening on: http://localhost:44381
+INFO  15 Mar 2020 22:55:04 Application started. Press Ctrl+C to shut down.
+INFO  15 Mar 2020 22:55:04 Hosting environment: Development
+INFO  15 Mar 2020 22:55:04 Content root path: /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi
+WARN  15 Mar 2020 22:55:05 Failed to determine the https port for redirect.
+INFO  15 Mar 2020 23:04:35 Now listening on: http://localhost:44381
+INFO  15 Mar 2020 23:04:35 Application started. Press Ctrl+C to shut down.
+INFO  15 Mar 2020 23:04:35 Hosting environment: Development
+INFO  15 Mar 2020 23:04:35 Content root path: /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi
+WARN  15 Mar 2020 23:04:36 Failed to determine the https port for redirect.
+INFO  17 Mar 2020 22:50:03 Now listening on: http://localhost:44381
+INFO  17 Mar 2020 22:50:03 Application started. Press Ctrl+C to shut down.
+INFO  17 Mar 2020 22:50:03 Hosting environment: Development
+INFO  17 Mar 2020 22:50:03 Content root path: /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi
+WARN  17 Mar 2020 22:50:11 Failed to determine the https port for redirect.
+INFO  17 Mar 2020 22:50:11 ::1: Word forms requested for word: ''
+ERROR 17 Mar 2020 22:50:12 ::1:    at ssentencesExtractorApi.Repos.LingvRepo.GetWordForms(String wordForm) in /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi/Repos/LingvRepo.cs:line 31
+   at ssentencesExtractorApi.Controllers.LingvController.GetWordForms(String wordForm) in /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi/Controllers/LingvController.cs:line 29
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at ssentencesExtractorApi.ExceptionsHandlerMiddleware.Invoke(HttpContext context) in /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi/ExceptionsHandlerMiddleware.cs:line 25
+INFO  17 Mar 2020 22:51:13 Application is shutting down...
+INFO  17 Mar 2020 22:52:09 Now listening on: http://localhost:44381
+INFO  17 Mar 2020 22:52:09 Application started. Press Ctrl+C to shut down.
+INFO  17 Mar 2020 22:52:09 Hosting environment: Development
+INFO  17 Mar 2020 22:52:09 Content root path: /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi
+WARN  17 Mar 2020 22:52:10 Failed to determine the https port for redirect.
+INFO  17 Mar 2020 22:52:27 ::1: Word forms requested for word: 'привет'
+INFO  17 Mar 2020 22:52:48 ::1: Word forms requested for word: ''привет''
+INFO  17 Mar 2020 22:52:58 ::1: Word forms requested for word: ''корова''
+INFO  17 Mar 2020 22:53:47 ::1: Word forms requested for word: ''корова''
+INFO  17 Mar 2020 22:53:55 ::1: Word forms requested for word: 'корова'
+INFO  17 Mar 2020 22:54:23 ::1: Word forms requested for word: 'корова'
+INFO  17 Mar 2020 22:57:04 ::1: Word forms requested for word: 'корова'
+INFO  17 Mar 2020 22:59:46 ::1: Word forms requested for word: 'корова'
+INFO  17 Mar 2020 22:59:52 ::1: Word forms requested for word: 'корове'
+INFO  17 Mar 2020 22:59:52 ::1: Word forms requested for word: 'коров'
+INFO  17 Mar 2020 22:59:52 ::1: Word forms requested for word: 'коровы'
+INFO  17 Mar 2020 22:59:52 ::1: Word forms requested for word: 'коровам'
+INFO  17 Mar 2020 22:59:52 ::1: Word forms requested for word: 'коровами'
+INFO  17 Mar 2020 22:59:53 ::1: Word forms requested for word: 'коровах'
+INFO  17 Mar 2020 22:59:53 ::1: Word forms requested for word: 'коровою'
+INFO  17 Mar 2020 22:59:53 ::1: Word forms requested for word: 'коровой'
+INFO  17 Mar 2020 22:59:53 ::1: Word forms requested for word: 'корову'
+INFO  17 Mar 2020 22:59:53 ::1: Word forms requested for word: 'корова'
+INFO  17 Mar 2020 23:00:05 ::1: Word forms requested for word: 'петух'
+INFO  17 Mar 2020 23:00:05 ::1: Word forms requested for word: 'корова'
+INFO  17 Mar 2020 23:00:05 ::1: Word forms requested for word: 'рыбка'
+INFO  17 Mar 2020 23:00:05 ::1: Word forms requested for word: 'жопа'
+INFO  17 Mar 2020 23:02:37 ::1: Word forms requested for word: 'корова'
+INFO  17 Mar 2020 23:02:37 ::1: Word forms requested for word: 'зайчик'
+INFO  17 Mar 2020 23:02:37 ::1: Word forms requested for word: 'жопа'
+INFO  17 Mar 2020 23:02:37 ::1: Word forms requested for word: 'телефон'
+INFO  17 Mar 2020 23:02:37 ::1: Word forms requested for word: 'рыбка'
+INFO  17 Mar 2020 23:02:37 ::1: Word forms requested for word: 'елка'
+INFO  17 Mar 2020 23:02:37 ::1: Word forms requested for word: 'сибирь'
+INFO  17 Mar 2020 23:02:37 ::1: Word forms requested for word: 'сталин'
+INFO  17 Mar 2020 23:02:37 ::1: Word forms requested for word: 'писька'
+INFO  17 Mar 2020 23:03:45 ::1: Word forms requested for word: 'утвердил'
+INFO  17 Mar 2020 23:03:45 ::1: Word forms requested for word: 'сербии'
+INFO  17 Mar 2020 23:03:45 ::1: Word forms requested for word: 'кабмин'
+INFO  17 Mar 2020 23:03:45 ::1: Word forms requested for word: 'комендантский'
+INFO  17 Mar 2020 23:03:45 ::1: Word forms requested for word: 'час'
+INFO  17 Mar 2020 23:03:45 ::1: Word forms requested for word: 'в'
+INFO  17 Mar 2020 23:03:45 ::1: Word forms requested for word: 'стране.'
+INFO  17 Mar 2020 23:03:45 ::1: Word forms requested for word: 'причиной'
+INFO  17 Mar 2020 23:03:45 ::1: Word forms requested for word: 'такого'
+INFO  17 Mar 2020 23:03:45 ::1: Word forms requested for word: 'решения'
+INFO  17 Mar 2020 23:03:45 ::1: Word forms requested for word: 'стал'
+INFO  17 Mar 2020 23:03:45 ::1: Word forms requested for word: 'коронавирус.начиная'
+INFO  17 Mar 2020 23:03:45 ::1: Word forms requested for word: 'с'
+INFO  17 Mar 2020 23:03:45 ::1: Word forms requested for word: '20'
+INFO  17 Mar 2020 23:03:45 ::1: Word forms requested for word: 'часов'
+INFO  17 Mar 2020 23:03:45 ::1: Word forms requested for word: 'вечера'
+INFO  17 Mar 2020 23:03:45 ::1: Word forms requested for word: '5'
+INFO  17 Mar 2020 23:03:45 ::1: Word forms requested for word: 'до'
+INFO  17 Mar 2020 23:03:45 ::1: Word forms requested for word: 'передвижение'
+INFO  17 Mar 2020 23:03:45 ::1: Word forms requested for word: 'запрещается'
+INFO  17 Mar 2020 23:03:45 ::1: Word forms requested for word: 'утра'
+INFO  17 Mar 2020 23:03:45 ::1: Word forms requested for word: 'и'
+INFO  17 Mar 2020 23:03:45 ::1: Word forms requested for word: 'по'
+INFO  17 Mar 2020 23:03:45 ::1: Word forms requested for word: 'улицам'
+INFO  17 Mar 2020 23:03:45 ::1: Word forms requested for word: 'всех'
+INFO  17 Mar 2020 23:03:45 ::1: Word forms requested for word: 'для'
+INFO  17 Mar 2020 23:03:45 ::1: Word forms requested for word: 'граждан,'
+INFO  17 Mar 2020 23:03:45 ::1: Word forms requested for word: 'заявил'
+INFO  17 Mar 2020 23:03:45 ::1: Word forms requested for word: '—'
+INFO  17 Mar 2020 23:03:45 ::1: Word forms requested for word: 'президент'
+INFO  17 Mar 2020 23:03:45 ::1: Word forms requested for word: 'страны'
+INFO  17 Mar 2020 23:03:45 ::1: Word forms requested for word: 'александр'
+INFO  17 Mar 2020 23:03:45 ::1: Word forms requested for word: 'вучич.ранее'
+INFO  17 Mar 2020 23:03:45 ::1: Word forms requested for word: 'было'
+INFO  17 Mar 2020 23:03:45 ::1: Word forms requested for word: 'введено'
+INFO  17 Mar 2020 23:03:45 ::1: Word forms requested for word: 'положение.'
+INFO  17 Mar 2020 23:03:45 ::1: Word forms requested for word: 'кроме'
+INFO  17 Mar 2020 23:03:45 ::1: Word forms requested for word: 'чрезвычайное'
+INFO  17 Mar 2020 23:03:45 ::1: Word forms requested for word: 'того,'
+INFO  17 Mar 2020 23:03:45 ::1: Word forms requested for word: 'россия'
+INFO  17 Mar 2020 23:03:46 ::1: Word forms requested for word: 'приостановит'
+INFO  17 Mar 2020 23:03:46 ::1: Word forms requested for word: 'сербией'
+INFO  17 Mar 2020 23:03:46 ::1: Word forms requested for word: 'нового'
+INFO  17 Mar 2020 23:03:46 ::1: Word forms requested for word: 'распространения'
+INFO  17 Mar 2020 23:03:46 ::1: Word forms requested for word: 'авиасообщение'
+INFO  17 Mar 2020 23:03:46 ::1: Word forms requested for word: 'из-за'
+INFO  17 Mar 2020 23:03:46 ::1: Word forms requested for word: 'коронавируса.'
+INFO  17 Mar 2020 23:03:46 ::1: Word forms requested for word: 'об'
+INFO  17 Mar 2020 23:03:46 ::1: Word forms requested for word: 'этом'
+INFO  17 Mar 2020 23:03:46 ::1: Word forms requested for word: 'посольстве'
+INFO  17 Mar 2020 23:03:46 ::1: Word forms requested for word: 'заявили'
+INFO  17 Mar 2020 23:03:46 ::1: Word forms requested for word: 'рф'
+INFO  17 Mar 2020 23:03:46 ::1: Word forms requested for word: 'белграде.news.ru'
+INFO  17 Mar 2020 23:03:46 ::1: Word forms requested for word: 'что'
+INFO  17 Mar 2020 23:03:46 ::1: Word forms requested for word: 'сообщал,'
+INFO  17 Mar 2020 23:03:46 ::1: Word forms requested for word: 'коронавируса'
+INFO  17 Mar 2020 23:03:46 ::1: Word forms requested for word: 'крымское'
+INFO  17 Mar 2020 23:03:46 ::1: Word forms requested for word: 'погрануправление'
+INFO  17 Mar 2020 23:03:46 ::1: Word forms requested for word: 'фсб'
+INFO  17 Mar 2020 23:03:46 ::1: Word forms requested for word: 'сообщило'
+INFO  17 Mar 2020 23:03:46 ::1: Word forms requested for word: 'закрытии'
+INFO  17 Mar 2020 23:03:46 ::1: Word forms requested for word: 'о'
+INFO  17 Mar 2020 23:03:46 ::1: Word forms requested for word: 'российско-украинской'
+INFO  17 Mar 2020 23:03:46 ::1: Word forms requested for word: 'границы.'
+INFO  17 Mar 2020 23:17:33 ::1: Word forms requested for word: 'колобок'
+INFO  18 Mar 2020 09:56:19 Now listening on: http://localhost:44381
+INFO  18 Mar 2020 09:56:19 Application started. Press Ctrl+C to shut down.
+INFO  18 Mar 2020 09:56:19 Hosting environment: Development
+INFO  18 Mar 2020 09:56:19 Content root path: /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi
+WARN  18 Mar 2020 09:57:18 Failed to determine the https port for redirect.
+INFO  18 Mar 2020 09:57:18 ::1: Word forms requested for word: 'подоконник'
+INFO  18 Mar 2020 09:59:53 ::1: Word forms requested for word: 'рыбка'
+INFO  18 Mar 2020 09:59:59 ::1: Word forms requested for word: 'рыбки'
+INFO  18 Mar 2020 09:59:59 ::1: Word forms requested for word: 'рыбке'
+INFO  18 Mar 2020 09:59:59 ::1: Word forms requested for word: 'рыбка'
+INFO  18 Mar 2020 09:59:59 ::1: Word forms requested for word: 'рыбку'
+INFO  18 Mar 2020 09:59:59 ::1: Word forms requested for word: 'рыбкою'
+INFO  18 Mar 2020 09:59:59 ::1: Word forms requested for word: 'рыбкой'
+INFO  18 Mar 2020 09:59:59 ::1: Word forms requested for word: 'рыбок'
+INFO  18 Mar 2020 09:59:59 ::1: Word forms requested for word: 'рыбками'
+INFO  18 Mar 2020 09:59:59 ::1: Word forms requested for word: 'рыбкам'
+INFO  18 Mar 2020 09:59:59 ::1: Word forms requested for word: 'рыбках'
+INFO  18 Mar 2020 09:59:59 ::1: Word forms requested for word: 'рыбка'
+INFO  18 Mar 2020 09:59:59 ::1: Word forms requested for word: 'рыбки'
+INFO  18 Mar 2020 09:59:59 ::1: Word forms requested for word: 'рыбке'
+INFO  18 Mar 2020 09:59:59 ::1: Word forms requested for word: 'рыбку'
+INFO  18 Mar 2020 09:59:59 ::1: Word forms requested for word: 'рыбкою'
+INFO  18 Mar 2020 09:59:59 ::1: Word forms requested for word: 'рыбкой'
+INFO  18 Mar 2020 09:59:59 ::1: Word forms requested for word: 'рыбок'
+INFO  18 Mar 2020 09:59:59 ::1: Word forms requested for word: 'рыбкам'
+INFO  18 Mar 2020 09:59:59 ::1: Word forms requested for word: 'рыбках'
+INFO  18 Mar 2020 09:59:59 ::1: Word forms requested for word: 'рыбками'
+INFO  18 Mar 2020 09:59:59 ::1: Word forms requested for word: 'рыбка'
+INFO  18 Mar 2020 10:00:00 ::1: Word forms requested for word: 'рыбке'
+INFO  18 Mar 2020 10:00:00 ::1: Word forms requested for word: 'рыбки'
+INFO  18 Mar 2020 10:00:00 ::1: Word forms requested for word: 'рыбку'
+INFO  18 Mar 2020 10:00:00 ::1: Word forms requested for word: 'рыбкою'
+INFO  18 Mar 2020 10:00:00 ::1: Word forms requested for word: 'рыбкой'
+INFO  18 Mar 2020 10:00:00 ::1: Word forms requested for word: 'рыбок'
+INFO  18 Mar 2020 10:00:00 ::1: Word forms requested for word: 'рыбкам'
+INFO  18 Mar 2020 10:00:00 ::1: Word forms requested for word: 'рыбками'
+INFO  18 Mar 2020 10:00:00 ::1: Word forms requested for word: 'рыбках'
+INFO  18 Mar 2020 10:00:07 ::1: Word forms requested for word: 'голова'
+INFO  18 Mar 2020 10:00:26 ::1: Word forms requested for word: 'голова'
+INFO  18 Mar 2020 10:00:26 ::1: Word forms requested for word: 'головушка'
+INFO  18 Mar 2020 10:00:26 ::1: Word forms requested for word: 'головенька'
+INFO  18 Mar 2020 10:00:26 ::1: Word forms requested for word: 'головка'
+INFO  18 Mar 2020 10:00:40 ::1: Word forms requested for word: 'гогого'
+INFO  18 Mar 2020 10:00:45 ::1: Word forms requested for word: 'рыбка'
+INFO  18 Mar 2020 10:00:45 ::1: Word forms requested for word: 'гогого'
+INFO  18 Mar 2020 10:02:02 ::1: Word forms requested for word: 'ekfvf'
+INFO  18 Mar 2020 10:02:02 ::1: Word forms requested for word: 'hfhfhf'
+INFO  18 Mar 2020 10:02:18 ::1: Word forms requested for word: 'hfhfhf'
+INFO  18 Mar 2020 10:02:18 ::1: Word forms requested for word: 'рыбка'
+INFO  18 Mar 2020 10:03:19 ::1: Word forms requested for word: 'шкур'
+INFO  18 Mar 2020 10:03:23 ::1: Word forms requested for word: 'шкура'
+INFO  18 Mar 2020 10:03:23 ::1: Word forms requested for word: 'шкур'
+INFO  18 Mar 2020 10:03:23 ::1: Word forms requested for word: 'шкуры'
+INFO  18 Mar 2020 10:03:23 ::1: Word forms requested for word: 'шкуре'
+INFO  18 Mar 2020 10:03:23 ::1: Word forms requested for word: 'шкуру'
+INFO  18 Mar 2020 10:03:23 ::1: Word forms requested for word: 'шкурой'
+INFO  18 Mar 2020 10:03:23 ::1: Word forms requested for word: 'шкурою'
+INFO  18 Mar 2020 10:03:23 ::1: Word forms requested for word: 'шкурами'
+INFO  18 Mar 2020 10:03:23 ::1: Word forms requested for word: 'шкурам'
+INFO  18 Mar 2020 10:03:23 ::1: Word forms requested for word: 'шкурах'
+INFO  18 Mar 2020 10:03:23 ::1: Word forms requested for word: 'кококо'
+INFO  18 Mar 2020 10:03:30 ::1: Word forms requested for word: 'шкур'
+INFO  18 Mar 2020 10:03:30 ::1: Word forms requested for word: 'шкура'
+INFO  18 Mar 2020 10:03:30 ::1: Word forms requested for word: 'шкуру'
+INFO  18 Mar 2020 10:03:30 ::1: Word forms requested for word: 'шкуры'
+INFO  18 Mar 2020 10:03:30 ::1: Word forms requested for word: 'шкурой'
+INFO  18 Mar 2020 10:03:30 ::1: Word forms requested for word: 'шкуре'
+INFO  18 Mar 2020 10:03:30 ::1: Word forms requested for word: 'шкурою'
+INFO  18 Mar 2020 10:03:30 ::1: Word forms requested for word: 'шкурам'
+INFO  18 Mar 2020 10:03:30 ::1: Word forms requested for word: 'шкурами'
+INFO  18 Mar 2020 10:03:30 ::1: Word forms requested for word: 'шкурах'
+INFO  18 Mar 2020 10:03:30 ::1: Word forms requested for word: 'кококо'
+INFO  18 Mar 2020 10:03:30 ::1: Word forms requested for word: 'лылы'
+INFO  18 Mar 2020 10:03:33 ::1: Word forms requested for word: 'шкур'
+INFO  18 Mar 2020 10:03:33 ::1: Word forms requested for word: 'шкура'
+INFO  18 Mar 2020 10:03:33 ::1: Word forms requested for word: 'шкуры'
+INFO  18 Mar 2020 10:03:33 ::1: Word forms requested for word: 'шкуре'
+INFO  18 Mar 2020 10:03:33 ::1: Word forms requested for word: 'шкуру'
+INFO  18 Mar 2020 10:03:33 ::1: Word forms requested for word: 'шкурой'
+INFO  18 Mar 2020 10:03:33 ::1: Word forms requested for word: 'шкурою'
+INFO  18 Mar 2020 10:03:33 ::1: Word forms requested for word: 'шкурах'
+INFO  18 Mar 2020 10:03:33 ::1: Word forms requested for word: 'кококо'
+INFO  18 Mar 2020 10:03:33 ::1: Word forms requested for word: 'шкурам'
+INFO  18 Mar 2020 10:03:33 ::1: Word forms requested for word: 'шкурами'
+INFO  18 Mar 2020 10:03:33 ::1: Word forms requested for word: 'лылы'
+INFO  18 Mar 2020 10:03:33 ::1: Word forms requested for word: 'школа'
+INFO  18 Mar 2020 10:03:41 ::1: Word forms requested for word: 'акака'
+INFO  18 Mar 2020 10:03:41 ::1: Word forms requested for word: 'школа'
+INFO  18 Mar 2020 10:03:48 ::1: Word forms requested for word: 'школа'
+INFO  18 Mar 2020 10:03:48 ::1: Word forms requested for word: 'апарм'
+INFO  18 Mar 2020 10:03:48 ::1: Word forms requested for word: 'рыбка'
+INFO  18 Mar 2020 10:03:51 ::1: Word forms requested for word: 'школа'
+INFO  18 Mar 2020 10:03:51 ::1: Word forms requested for word: 'апарм'
+INFO  18 Mar 2020 10:03:51 ::1: Word forms requested for word: 'школах'
+INFO  18 Mar 2020 10:03:51 ::1: Word forms requested for word: 'рыбка'
+INFO  18 Mar 2020 10:03:51 ::1: Word forms requested for word: 'школами'
+INFO  18 Mar 2020 10:03:51 ::1: Word forms requested for word: 'школы'
+INFO  18 Mar 2020 10:03:51 ::1: Word forms requested for word: 'школам'
+INFO  18 Mar 2020 10:03:52 ::1: Word forms requested for word: 'школе'
+INFO  18 Mar 2020 10:03:52 ::1: Word forms requested for word: 'школ'
+INFO  18 Mar 2020 10:03:52 ::1: Word forms requested for word: 'школу'
+INFO  18 Mar 2020 10:03:52 ::1: Word forms requested for word: 'школой'
+INFO  18 Mar 2020 10:03:52 ::1: Word forms requested for word: 'школою'
+INFO  18 Mar 2020 10:03:52 ::1: Word forms requested for word: 'рыбки'
+INFO  18 Mar 2020 10:03:52 ::1: Word forms requested for word: 'рыбке'
+INFO  18 Mar 2020 10:03:52 ::1: Word forms requested for word: 'рыбкою'
+INFO  18 Mar 2020 10:03:52 ::1: Word forms requested for word: 'рыбку'
+INFO  18 Mar 2020 10:03:52 ::1: Word forms requested for word: 'рыбкой'
+INFO  18 Mar 2020 10:03:52 ::1: Word forms requested for word: 'рыбок'
+INFO  18 Mar 2020 10:03:52 ::1: Word forms requested for word: 'рыбкам'
+INFO  18 Mar 2020 10:03:52 ::1: Word forms requested for word: 'рыбками'
+INFO  18 Mar 2020 10:03:52 ::1: Word forms requested for word: 'рыбках'
+INFO  18 Mar 2020 10:03:52 ::1: Word forms requested for word: 'школа'
+INFO  18 Mar 2020 10:03:52 ::1: Word forms requested for word: 'апарм'
+INFO  18 Mar 2020 10:03:52 ::1: Word forms requested for word: 'рыбка'
+INFO  18 Mar 2020 10:03:52 ::1: Word forms requested for word: 'школах'
+INFO  18 Mar 2020 10:03:52 ::1: Word forms requested for word: 'школами'
+INFO  18 Mar 2020 10:03:52 ::1: Word forms requested for word: 'школы'
+INFO  18 Mar 2020 10:03:52 ::1: Word forms requested for word: 'школам'
+INFO  18 Mar 2020 10:03:52 ::1: Word forms requested for word: 'школ'
+INFO  18 Mar 2020 10:03:52 ::1: Word forms requested for word: 'школе'
+INFO  18 Mar 2020 10:03:52 ::1: Word forms requested for word: 'школу'
+INFO  18 Mar 2020 10:03:52 ::1: Word forms requested for word: 'школой'
+INFO  18 Mar 2020 10:03:52 ::1: Word forms requested for word: 'школою'
+INFO  18 Mar 2020 10:03:52 ::1: Word forms requested for word: 'рыбки'
+INFO  18 Mar 2020 10:03:52 ::1: Word forms requested for word: 'рыбке'
+INFO  18 Mar 2020 10:03:52 ::1: Word forms requested for word: 'рыбку'
+INFO  18 Mar 2020 10:03:52 ::1: Word forms requested for word: 'рыбкою'
+INFO  18 Mar 2020 10:03:52 ::1: Word forms requested for word: 'рыбкой'
+INFO  18 Mar 2020 10:03:52 ::1: Word forms requested for word: 'рыбок'
+INFO  18 Mar 2020 10:03:52 ::1: Word forms requested for word: 'рыбкам'
+INFO  18 Mar 2020 10:03:52 ::1: Word forms requested for word: 'рыбками'
+INFO  18 Mar 2020 10:03:52 ::1: Word forms requested for word: 'рыбках'
+INFO  18 Mar 2020 10:03:52 ::1: Word forms requested for word: 'школа'
+INFO  18 Mar 2020 10:03:52 ::1: Word forms requested for word: 'апарм'
+INFO  18 Mar 2020 10:03:52 ::1: Word forms requested for word: 'рыбка'
+INFO  18 Mar 2020 10:03:52 ::1: Word forms requested for word: 'школах'
+INFO  18 Mar 2020 10:03:52 ::1: Word forms requested for word: 'школами'
+INFO  18 Mar 2020 10:03:52 ::1: Word forms requested for word: 'школы'
+INFO  18 Mar 2020 10:03:52 ::1: Word forms requested for word: 'школам'
+INFO  18 Mar 2020 10:03:52 ::1: Word forms requested for word: 'школ'
+INFO  18 Mar 2020 10:03:52 ::1: Word forms requested for word: 'школе'
+INFO  18 Mar 2020 10:03:52 ::1: Word forms requested for word: 'школу'
+INFO  18 Mar 2020 10:03:52 ::1: Word forms requested for word: 'школой'
+INFO  18 Mar 2020 10:03:52 ::1: Word forms requested for word: 'школою'
+INFO  18 Mar 2020 10:03:52 ::1: Word forms requested for word: 'рыбки'
+INFO  18 Mar 2020 10:03:52 ::1: Word forms requested for word: 'рыбке'
+INFO  18 Mar 2020 10:03:52 ::1: Word forms requested for word: 'рыбку'
+INFO  18 Mar 2020 10:03:52 ::1: Word forms requested for word: 'рыбкою'
+INFO  18 Mar 2020 10:03:52 ::1: Word forms requested for word: 'рыбкой'
+INFO  18 Mar 2020 10:03:52 ::1: Word forms requested for word: 'рыбок'
+INFO  18 Mar 2020 10:03:52 ::1: Word forms requested for word: 'рыбкам'
+INFO  18 Mar 2020 10:03:52 ::1: Word forms requested for word: 'рыбками'
+INFO  18 Mar 2020 10:03:52 ::1: Word forms requested for word: 'рыбках'
+INFO  18 Mar 2020 10:06:15 ::1: Word forms requested for word: 'ророро'
+INFO  18 Mar 2020 10:06:15 ::1: Word forms requested for word: 'думать'
+INFO  18 Mar 2020 10:06:44 ::1: Word forms requested for word: 'электронный'
+INFO  18 Mar 2020 10:06:44 ::1: Word forms requested for word: 'чек'
+INFO  18 Mar 2020 10:06:44 ::1: Word forms requested for word: ''
+INFO  18 Mar 2020 10:06:44 ::1: Word forms requested for word: 'кассовый'
+INFO  18 Mar 2020 10:06:44 ::1: Word forms requested for word: '/'
+INFO  18 Mar 2020 10:06:44 ::1: Word forms requested for word: 'приход'
+INFO  18 Mar 2020 10:06:44 ::1: Word forms requested for word: 'ооо'
+INFO  18 Mar 2020 10:06:44 ::1: Word forms requested for word: '"робокасса"фискальный'
+INFO  18 Mar 2020 10:06:44 ::1: Word forms requested for word: 'документ'
+INFO  18 Mar 2020 10:06:44 ::1: Word forms requested for word: 'выдачи18.03.20'
+INFO  18 Mar 2020 10:06:44 ::1: Word forms requested for word: '09:48адрес'
+INFO  18 Mar 2020 10:06:44 ::1: Word forms requested for word: 'расчётов109316,'
+INFO  18 Mar 2020 10:06:44 ::1: Word forms requested for word: 'регион'
+INFO  18 Mar 2020 10:06:44 ::1: Word forms requested for word: '77,'
+INFO  18 Mar 2020 10:06:44 ::1: Word forms requested for word: 'москва,'
+INFO  18 Mar 2020 10:06:44 ::1: Word forms requested for word: 'волгоградский'
+INFO  18 Mar 2020 10:06:44 ::1: Word forms requested for word: 'проспект,'
+INFO  18 Mar 2020 10:06:44 ::1: Word forms requested for word: 'дом'
+INFO  18 Mar 2020 10:06:44 ::1: Word forms requested for word: '42,'
+INFO  18 Mar 2020 10:06:44 ::1: Word forms requested for word: 'корпус'
+INFO  18 Mar 2020 10:06:44 ::1: Word forms requested for word: '9место'
+INFO  18 Mar 2020 10:06:44 ::1: Word forms requested for word: 'расчётовhttps://robokassa.ru/кассирномер'
+INFO  18 Mar 2020 10:06:44 ::1: Word forms requested for word: 'чек'
+INFO  18 Mar 2020 10:06:44 ::1: Word forms requested for word: 'автоматаksr13.11-6-9номер'
+INFO  18 Mar 2020 10:06:44 ::1: Word forms requested for word: 'смены'
+INFO  18 Mar 2020 10:06:44 ::1: Word forms requested for word: 'в'
+INFO  18 Mar 2020 10:06:44 ::1: Word forms requested for word: 'смене'
+INFO  18 Mar 2020 10:06:44 ::1: Word forms requested for word: 'адр.'
+INFO  18 Mar 2020 10:06:44 ::1: Word forms requested for word: 'покупателяaryumin@aryumin.ruрн'
+INFO  18 Mar 2020 10:06:44 ::1: Word forms requested for word: '5047063929фн'
+INFO  18 Mar 2020 10:06:44 ::1: Word forms requested for word: '0000830252029880инн'
+INFO  18 Mar 2020 10:06:44 ::1: Word forms requested for word: '9289000100484991фпд'
+INFO  18 Mar 2020 10:06:44 ::1: Word forms requested for word: '3783655691офдооо'
+INFO  18 Mar 2020 10:06:44 ::1: Word forms requested for word: 'пс'
+INFO  18 Mar 2020 10:06:44 ::1: Word forms requested for word: 'стсайт'
+INFO  18 Mar 2020 10:06:44 ::1: Word forms requested for word: 'офдofd.ruобесп.'
+INFO  18 Mar 2020 10:06:44 ::1: Word forms requested for word: 'инф.-тех.'
+INFO  18 Mar 2020 10:06:44 ::1: Word forms requested for word: 'взаим.'
+INFO  18 Mar 2020 10:06:44 ::1: Word forms requested for word: 'при'
+INFO  18 Mar 2020 10:06:44 ::1: Word forms requested for word: 'зачисл.'
+INFO  18 Mar 2020 10:06:44 ::1: Word forms requested for word: 'на'
+INFO  18 Mar 2020 10:06:44 ::1: Word forms requested for word: 'robowallet1'
+INFO  18 Mar 2020 10:06:44 ::1: Word forms requested for word: 'x'
+INFO  18 Mar 2020 10:06:44 ::1: Word forms requested for word: '38.50='
+INFO  18 Mar 2020 10:06:44 ::1: Word forms requested for word: '38.50в'
+ERROR 18 Mar 2020 10:06:44 ::1:    at ssentencesExtractorApi.Repos.LingvRepo.GetWordForms(String wordForm) in /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi/Repos/LingvRepo.cs:line 31
+   at ssentencesExtractorApi.Controllers.LingvController.GetWordForms(String wordForm) in /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi/Controllers/LingvController.cs:line 29
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at ssentencesExtractorApi.ExceptionsHandlerMiddleware.Invoke(HttpContext context) in /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi/ExceptionsHandlerMiddleware.cs:line 25
+INFO  18 Mar 2020 10:06:44 ::1: Word forms requested for word: 'т.ч.'
+INFO  18 Mar 2020 10:06:44 ::1: Word forms requested for word: 'ндс'
+INFO  18 Mar 2020 10:06:44 ::1: Word forms requested for word: 'не'
+INFO  18 Mar 2020 10:06:44 ::1: Word forms requested for word: 'облагается'
+INFO  18 Mar 2020 10:06:44 ::1: Word forms requested for word: '='
+INFO  18 Mar 2020 10:06:44 ::1: Word forms requested for word: '0.00итог38.50предварительная'
+INFO  18 Mar 2020 10:06:44 ::1: Word forms requested for word: 'оплата(аванс)0.00последующая'
+INFO  18 Mar 2020 10:06:44 ::1: Word forms requested for word: 'оплата(кредит)0.00иная'
+INFO  18 Mar 2020 10:06:44 ::1: Word forms requested for word: 'форма'
+INFO  18 Mar 2020 10:06:44 ::1: Word forms requested for word: 'оплаты0.00наличными0.00безналичными38.50'
+INFO  18 Mar 2020 10:06:44 ::1: Word forms requested for word: 'налоги'
+INFO  18 Mar 2020 10:06:44 ::1: Word forms requested for word: 'облагается38.50система'
+INFO  18 Mar 2020 10:06:44 ::1: Word forms requested for word: 'налогообложенияоснсервис'
+INFO  18 Mar 2020 10:06:44 ::1: Word forms requested for word: 'проверки'
+INFO  18 Mar 2020 10:06:44 ::1: Word forms requested for word: 'чеков:'
+INFO  18 Mar 2020 10:06:44 ::1: Word forms requested for word: 'https://check.ofd.ru/'
+INFO  18 Mar 2020 10:06:44 ::1: Word forms requested for word: ''
+ERROR 18 Mar 2020 10:06:44 ::1:    at ssentencesExtractorApi.Repos.LingvRepo.GetWordForms(String wordForm) in /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi/Repos/LingvRepo.cs:line 31
+   at ssentencesExtractorApi.Controllers.LingvController.GetWordForms(String wordForm) in /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi/Controllers/LingvController.cs:line 29
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at ssentencesExtractorApi.ExceptionsHandlerMiddleware.Invoke(HttpContext context) in /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi/ExceptionsHandlerMiddleware.cs:line 25
+INFO  18 Mar 2020 10:14:51 ::1: Word forms requested for word: 'efvefv'
+INFO  18 Mar 2020 10:14:55 ::1: Word forms requested for word: 'eee'
+INFO  18 Mar 2020 10:15:04 ::1: Word forms requested for word: 'привет'
+INFO  18 Mar 2020 10:15:17 ::1: Word forms requested for word: 'привет'
+INFO  18 Mar 2020 10:16:53 ::1: Word forms requested for word: 'привет'
+INFO  18 Mar 2020 10:17:01 ::1: Word forms requested for word: 'привет'
+INFO  18 Mar 2020 10:17:19 ::1: Word forms requested for word: 'приветколокол'
+INFO  18 Mar 2020 10:17:34 ::1: Word forms requested for word: 'приветколокол'
+INFO  18 Mar 2020 10:18:15 ::1: Word forms requested for word: 'приветколокол'
+INFO  18 Mar 2020 10:18:42 ::1: Word forms requested for word: 'приветколокол'
+INFO  18 Mar 2020 10:19:31 ::1: Word forms requested for word: 'приветколокол'
+INFO  18 Mar 2020 10:19:34 ::1: Word forms requested for word: 'приветколокол'
+INFO  18 Mar 2020 10:20:00 ::1: Word forms requested for word: 'приветколокол'
+INFO  18 Mar 2020 10:20:23 ::1: Word forms requested for word: 'колокол'
+INFO  18 Mar 2020 10:20:23 ::1: Word forms requested for word: 'привет'
+INFO  18 Mar 2020 10:20:33 ::1: Word forms requested for word: 'привет'
+INFO  18 Mar 2020 10:20:33 ::1: Word forms requested for word: 'колокол'
+INFO  18 Mar 2020 10:20:39 ::1: Word forms requested for word: 'привет'
+INFO  18 Mar 2020 10:20:39 ::1: Word forms requested for word: 'колокол'
+INFO  18 Mar 2020 10:28:30 ::1: Word forms requested for word: 'желудь'
+INFO  18 Mar 2020 10:28:41 ::1: Word forms requested for word: 'какниудь'
+INFO  18 Mar 2020 10:28:48 ::1: Word forms requested for word: 'какнибудь'
+INFO  18 Mar 2020 10:29:00 ::1: Word forms requested for word: 'голова'
+INFO  18 Mar 2020 10:46:32 ::1: Word forms requested for word: 'рыбка'
+INFO  18 Mar 2020 10:46:32 ::1: Word forms requested for word: 'слово'
+INFO  18 Mar 2020 10:46:38 ::1: Word forms requested for word: 'шырктщышартщшатв'
+INFO  18 Mar 2020 10:46:43 ::1: Word forms requested for word: 'ш'
+INFO  18 Mar 2020 10:46:49 ::1: Word forms requested for word: 'ш'
+INFO  18 Mar 2020 10:47:40 ::1: Word forms requested for word: 'x'
+INFO  18 Mar 2020 10:47:45 ::1: Word forms requested for word: 'xii'
+INFO  18 Mar 2020 10:47:56 ::1: Word forms requested for word: '1945'
+INFO  18 Mar 2020 10:47:56 ::1: Word forms requested for word: 'война'
+INFO  18 Mar 2020 11:06:04 ::1: Word forms requested for word: 'война'
+INFO  18 Mar 2020 11:06:04 ::1: Word forms requested for word: ''
+INFO  18 Mar 2020 11:06:04 ::1: Word forms requested for word: 'войне'
+INFO  18 Mar 2020 11:06:04 ::1: Word forms requested for word: 'войной'
+INFO  18 Mar 2020 11:06:05 ::1: Word forms requested for word: '5'
+INFO  18 Mar 2020 11:06:06 ::1: Word forms requested for word: '1945'
+ERROR 18 Mar 2020 11:06:06 ::1:    at ssentencesExtractorApi.Repos.LingvRepo.GetWordForms(String wordForm) in /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi/Repos/LingvRepo.cs:line 31
+   at ssentencesExtractorApi.Controllers.LingvController.GetWordForms(String wordForm) in /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi/Controllers/LingvController.cs:line 29
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at ssentencesExtractorApi.ExceptionsHandlerMiddleware.Invoke(HttpContext context) in /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi/ExceptionsHandlerMiddleware.cs:line 25
+INFO  18 Mar 2020 11:06:06 ::1: Word forms requested for word: 'сталин'
+INFO  18 Mar 2020 11:06:06 ::1: Word forms requested for word: 'побед'
+INFO  18 Mar 2020 11:06:06 ::1: Word forms requested for word: 'гитлер'
+INFO  18 Mar 2020 11:06:23 ::1: Word forms requested for word: '5'
+INFO  18 Mar 2020 11:06:28 ::1: Word forms requested for word: '1987'
+INFO  18 Mar 2020 11:06:40 ::1: Word forms requested for word: ''
+INFO  18 Mar 2020 11:06:40 ::1: Word forms requested for word: 'войне'
+INFO  18 Mar 2020 11:06:40 ::1: Word forms requested for word: 'войной'
+INFO  18 Mar 2020 11:06:40 ::1: Word forms requested for word: 'война'
+INFO  18 Mar 2020 11:06:40 ::1: Word forms requested for word: '5'
+ERROR 18 Mar 2020 11:06:40 ::1:    at ssentencesExtractorApi.Repos.LingvRepo.GetWordForms(String wordForm) in /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi/Repos/LingvRepo.cs:line 31
+   at ssentencesExtractorApi.Controllers.LingvController.GetWordForms(String wordForm) in /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi/Controllers/LingvController.cs:line 29
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at ssentencesExtractorApi.ExceptionsHandlerMiddleware.Invoke(HttpContext context) in /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi/ExceptionsHandlerMiddleware.cs:line 25
+INFO  18 Mar 2020 11:06:40 ::1: Word forms requested for word: '1945'
+INFO  18 Mar 2020 11:06:40 ::1: Word forms requested for word: 'сталин'
+INFO  18 Mar 2020 11:06:40 ::1: Word forms requested for word: 'гитлер'
+INFO  18 Mar 2020 11:06:40 ::1: Word forms requested for word: 'побед'
+INFO  18 Mar 2020 11:06:40 ::1: Word forms requested for word: 'войною'
+INFO  18 Mar 2020 11:06:40 ::1: Word forms requested for word: 'войны'
+INFO  18 Mar 2020 11:06:40 ::1: Word forms requested for word: 'войн'
+INFO  18 Mar 2020 11:06:40 ::1: Word forms requested for word: 'войнам'
+INFO  18 Mar 2020 11:06:40 ::1: Word forms requested for word: 'войнами'
+INFO  18 Mar 2020 11:06:40 ::1: Word forms requested for word: 'войну'
+INFO  18 Mar 2020 11:06:40 ::1: Word forms requested for word: 'победах'
+INFO  18 Mar 2020 11:06:40 ::1: Word forms requested for word: 'войнах'
+INFO  18 Mar 2020 11:06:40 ::1: Word forms requested for word: 'победа'
+INFO  18 Mar 2020 11:06:40 ::1: Word forms requested for word: 'победы'
+INFO  18 Mar 2020 11:06:40 ::1: Word forms requested for word: 'победе'
+INFO  18 Mar 2020 11:06:40 ::1: Word forms requested for word: 'победу'
+INFO  18 Mar 2020 11:06:40 ::1: Word forms requested for word: 'победой'
+INFO  18 Mar 2020 11:06:40 ::1: Word forms requested for word: 'победою'
+INFO  18 Mar 2020 11:06:40 ::1: Word forms requested for word: 'победам'
+INFO  18 Mar 2020 11:06:40 ::1: Word forms requested for word: 'победами'
+INFO  18 Mar 2020 11:06:47 ::1: Word forms requested for word: 'война'
+INFO  18 Mar 2020 11:06:47 ::1: Word forms requested for word: ''
+INFO  18 Mar 2020 11:06:47 ::1: Word forms requested for word: 'войне'
+INFO  18 Mar 2020 11:06:47 ::1: Word forms requested for word: 'войной'
+ERROR 18 Mar 2020 11:06:47 ::1:    at ssentencesExtractorApi.Repos.LingvRepo.GetWordForms(String wordForm) in /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi/Repos/LingvRepo.cs:line 31
+   at ssentencesExtractorApi.Controllers.LingvController.GetWordForms(String wordForm) in /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi/Controllers/LingvController.cs:line 29
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at ssentencesExtractorApi.ExceptionsHandlerMiddleware.Invoke(HttpContext context) in /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi/ExceptionsHandlerMiddleware.cs:line 25
+INFO  18 Mar 2020 11:06:47 ::1: Word forms requested for word: '5'
+INFO  18 Mar 2020 11:06:47 ::1: Word forms requested for word: '1945'
+INFO  18 Mar 2020 11:06:47 ::1: Word forms requested for word: 'гитлер'
+INFO  18 Mar 2020 11:06:47 ::1: Word forms requested for word: 'сталин'
+INFO  18 Mar 2020 11:06:47 ::1: Word forms requested for word: 'побед'
+INFO  18 Mar 2020 11:06:47 ::1: Word forms requested for word: 'войною'
+INFO  18 Mar 2020 11:06:47 ::1: Word forms requested for word: 'войны'
+INFO  18 Mar 2020 11:06:47 ::1: Word forms requested for word: 'войнам'
+INFO  18 Mar 2020 11:06:47 ::1: Word forms requested for word: 'войнами'
+INFO  18 Mar 2020 11:06:47 ::1: Word forms requested for word: 'войн'
+INFO  18 Mar 2020 11:06:47 ::1: Word forms requested for word: 'войнах'
+INFO  18 Mar 2020 11:06:47 ::1: Word forms requested for word: 'войну'
+INFO  18 Mar 2020 11:06:47 ::1: Word forms requested for word: 'победах'
+INFO  18 Mar 2020 11:06:47 ::1: Word forms requested for word: 'победы'
+INFO  18 Mar 2020 11:06:47 ::1: Word forms requested for word: 'победа'
+INFO  18 Mar 2020 11:06:47 ::1: Word forms requested for word: 'победе'
+INFO  18 Mar 2020 11:06:47 ::1: Word forms requested for word: 'победу'
+INFO  18 Mar 2020 11:06:47 ::1: Word forms requested for word: 'победой'
+INFO  18 Mar 2020 11:06:47 ::1: Word forms requested for word: 'победою'
+INFO  18 Mar 2020 11:06:47 ::1: Word forms requested for word: 'победами'
+INFO  18 Mar 2020 11:06:47 ::1: Word forms requested for word: 'победам'
+INFO  18 Mar 2020 11:08:17 ::1: Word forms requested for word: ''
+INFO  18 Mar 2020 11:08:17 ::1: Word forms requested for word: 'война'
+INFO  18 Mar 2020 11:08:17 ::1: Word forms requested for word: 'войне'
+INFO  18 Mar 2020 11:08:17 ::1: Word forms requested for word: 'войной'
+INFO  18 Mar 2020 11:08:17 ::1: Word forms requested for word: '5'
+INFO  18 Mar 2020 11:08:17 ::1: Word forms requested for word: '1945'
+ERROR 18 Mar 2020 11:08:17 ::1:    at ssentencesExtractorApi.Repos.LingvRepo.GetWordForms(String wordForm) in /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi/Repos/LingvRepo.cs:line 31
+   at ssentencesExtractorApi.Controllers.LingvController.GetWordForms(String wordForm) in /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi/Controllers/LingvController.cs:line 29
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at ssentencesExtractorApi.ExceptionsHandlerMiddleware.Invoke(HttpContext context) in /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi/ExceptionsHandlerMiddleware.cs:line 25
+INFO  18 Mar 2020 11:08:17 ::1: Word forms requested for word: 'гитлер'
+INFO  18 Mar 2020 11:08:17 ::1: Word forms requested for word: 'сталин'
+INFO  18 Mar 2020 11:08:17 ::1: Word forms requested for word: 'побед'
+INFO  18 Mar 2020 11:08:23 ::1: Word forms requested for word: 'война'
+INFO  18 Mar 2020 11:08:23 ::1: Word forms requested for word: ''
+INFO  18 Mar 2020 11:08:23 ::1: Word forms requested for word: 'войне'
+INFO  18 Mar 2020 11:08:23 ::1: Word forms requested for word: 'войной'
+INFO  18 Mar 2020 11:08:23 ::1: Word forms requested for word: '5'
+ERROR 18 Mar 2020 11:08:23 ::1:    at ssentencesExtractorApi.Repos.LingvRepo.GetWordForms(String wordForm) in /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi/Repos/LingvRepo.cs:line 31
+   at ssentencesExtractorApi.Controllers.LingvController.GetWordForms(String wordForm) in /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi/Controllers/LingvController.cs:line 29
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at ssentencesExtractorApi.ExceptionsHandlerMiddleware.Invoke(HttpContext context) in /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi/ExceptionsHandlerMiddleware.cs:line 25
+INFO  18 Mar 2020 11:08:23 ::1: Word forms requested for word: '1945'
+INFO  18 Mar 2020 11:08:23 ::1: Word forms requested for word: 'гитлер'
+INFO  18 Mar 2020 11:08:29 ::1: Word forms requested for word: 'война'
+INFO  18 Mar 2020 11:08:29 ::1: Word forms requested for word: ''
+INFO  18 Mar 2020 11:08:29 ::1: Word forms requested for word: 'войне'
+ERROR 18 Mar 2020 11:08:29 ::1:    at ssentencesExtractorApi.Repos.LingvRepo.GetWordForms(String wordForm) in /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi/Repos/LingvRepo.cs:line 31
+   at ssentencesExtractorApi.Controllers.LingvController.GetWordForms(String wordForm) in /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi/Controllers/LingvController.cs:line 29
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at ssentencesExtractorApi.ExceptionsHandlerMiddleware.Invoke(HttpContext context) in /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi/ExceptionsHandlerMiddleware.cs:line 25
+INFO  18 Mar 2020 11:08:35 ::1: Word forms requested for word: 'войне'
+INFO  18 Mar 2020 11:08:42 ::1: Word forms requested for word: 'войны'
+INFO  18 Mar 2020 11:08:42 ::1: Word forms requested for word: 'войн'
+INFO  18 Mar 2020 11:08:42 ::1: Word forms requested for word: ''
+ERROR 18 Mar 2020 11:08:42 ::1:    at ssentencesExtractorApi.Repos.LingvRepo.GetWordForms(String wordForm) in /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi/Repos/LingvRepo.cs:line 31
+   at ssentencesExtractorApi.Controllers.LingvController.GetWordForms(String wordForm) in /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi/Controllers/LingvController.cs:line 29
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at ssentencesExtractorApi.ExceptionsHandlerMiddleware.Invoke(HttpContext context) in /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi/ExceptionsHandlerMiddleware.cs:line 25
+INFO  18 Mar 2020 11:08:47 ::1: Word forms requested for word: 'войны'
+INFO  18 Mar 2020 11:08:47 ::1: Word forms requested for word: 'войн'
+INFO  18 Mar 2020 11:08:47 ::1: Word forms requested for word: ''
+ERROR 18 Mar 2020 11:08:47 ::1:    at ssentencesExtractorApi.Repos.LingvRepo.GetWordForms(String wordForm) in /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi/Repos/LingvRepo.cs:line 31
+   at ssentencesExtractorApi.Controllers.LingvController.GetWordForms(String wordForm) in /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi/Controllers/LingvController.cs:line 29
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at ssentencesExtractorApi.ExceptionsHandlerMiddleware.Invoke(HttpContext context) in /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi/ExceptionsHandlerMiddleware.cs:line 25
+INFO  18 Mar 2020 11:08:54 ::1: Word forms requested for word: 'войною'
+INFO  18 Mar 2020 11:08:54 ::1: Word forms requested for word: ''
+ERROR 18 Mar 2020 11:08:54 ::1:    at ssentencesExtractorApi.Repos.LingvRepo.GetWordForms(String wordForm) in /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi/Repos/LingvRepo.cs:line 31
+   at ssentencesExtractorApi.Controllers.LingvController.GetWordForms(String wordForm) in /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi/Controllers/LingvController.cs:line 29
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at ssentencesExtractorApi.ExceptionsHandlerMiddleware.Invoke(HttpContext context) in /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi/ExceptionsHandlerMiddleware.cs:line 25
+INFO  18 Mar 2020 11:09:01 ::1: Word forms requested for word: 'войн'
+INFO  18 Mar 2020 11:09:01 ::1: Word forms requested for word: ''
+ERROR 18 Mar 2020 11:09:01 ::1:    at ssentencesExtractorApi.Repos.LingvRepo.GetWordForms(String wordForm) in /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi/Repos/LingvRepo.cs:line 31
+   at ssentencesExtractorApi.Controllers.LingvController.GetWordForms(String wordForm) in /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi/Controllers/LingvController.cs:line 29
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at ssentencesExtractorApi.ExceptionsHandlerMiddleware.Invoke(HttpContext context) in /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi/ExceptionsHandlerMiddleware.cs:line 25
+INFO  18 Mar 2020 11:10:43 ::1: Word forms requested for word: 'война'
+INFO  18 Mar 2020 11:10:43 ::1: Word forms requested for word: ''
+INFO  18 Mar 2020 11:10:43 ::1: Word forms requested for word: 'войне'
+INFO  18 Mar 2020 11:10:43 ::1: Word forms requested for word: '5'
+INFO  18 Mar 2020 11:10:43 ::1: Word forms requested for word: 'войной'
+INFO  18 Mar 2020 11:10:43 ::1: Word forms requested for word: '1945'
+ERROR 18 Mar 2020 11:10:43 ::1:    at ssentencesExtractorApi.Repos.LingvRepo.GetWordForms(String wordForm) in /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi/Repos/LingvRepo.cs:line 31
+   at ssentencesExtractorApi.Controllers.LingvController.GetWordForms(String wordForm) in /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi/Controllers/LingvController.cs:line 29
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at ssentencesExtractorApi.ExceptionsHandlerMiddleware.Invoke(HttpContext context) in /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi/ExceptionsHandlerMiddleware.cs:line 25
+INFO  18 Mar 2020 11:10:43 ::1: Word forms requested for word: 'гитлер'
+INFO  18 Mar 2020 11:10:43 ::1: Word forms requested for word: 'сталин'
+INFO  18 Mar 2020 11:10:43 ::1: Word forms requested for word: 'побед'
+INFO  18 Mar 2020 11:10:43 ::1: Word forms requested for word: 'войною'
+INFO  18 Mar 2020 11:10:43 ::1: Word forms requested for word: 'войн'
+INFO  18 Mar 2020 11:10:43 ::1: Word forms requested for word: 'войны'
+INFO  18 Mar 2020 11:10:43 ::1: Word forms requested for word: 'войнам'
+INFO  18 Mar 2020 11:10:43 ::1: Word forms requested for word: 'войнами'
+INFO  18 Mar 2020 11:10:43 ::1: Word forms requested for word: 'войнах'
+INFO  18 Mar 2020 11:10:43 ::1: Word forms requested for word: 'войну'
+INFO  18 Mar 2020 11:10:43 ::1: Word forms requested for word: 'победа'
+INFO  18 Mar 2020 11:10:43 ::1: Word forms requested for word: 'победы'
+INFO  18 Mar 2020 11:10:43 ::1: Word forms requested for word: 'победе'
+INFO  18 Mar 2020 11:10:43 ::1: Word forms requested for word: 'победах'
+INFO  18 Mar 2020 11:10:43 ::1: Word forms requested for word: 'победу'
+INFO  18 Mar 2020 11:10:43 ::1: Word forms requested for word: 'победой'
+INFO  18 Mar 2020 11:10:43 ::1: Word forms requested for word: 'победою'
+INFO  18 Mar 2020 11:10:43 ::1: Word forms requested for word: 'победам'
+INFO  18 Mar 2020 11:10:43 ::1: Word forms requested for word: 'победами'
+INFO  18 Mar 2020 11:10:50 ::1: Word forms requested for word: 'война'
+INFO  18 Mar 2020 11:10:50 ::1: Word forms requested for word: ''
+INFO  18 Mar 2020 11:10:50 ::1: Word forms requested for word: 'в'
+ERROR 18 Mar 2020 11:10:50 ::1:    at ssentencesExtractorApi.Repos.LingvRepo.GetWordForms(String wordForm) in /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi/Repos/LingvRepo.cs:line 31
+   at ssentencesExtractorApi.Controllers.LingvController.GetWordForms(String wordForm) in /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi/Controllers/LingvController.cs:line 29
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at ssentencesExtractorApi.ExceptionsHandlerMiddleware.Invoke(HttpContext context) in /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi/ExceptionsHandlerMiddleware.cs:line 25
+INFO  18 Mar 2020 11:11:15 ::1: Word forms requested for word: 'войн'
+INFO  18 Mar 2020 11:11:18 ::1: Word forms requested for word: 'войн'
+INFO  18 Mar 2020 11:11:18 ::1: Word forms requested for word: 'войне'
+INFO  18 Mar 2020 11:11:18 ::1: Word forms requested for word: 'войны'
+INFO  18 Mar 2020 11:11:18 ::1: Word forms requested for word: 'войною'
+INFO  18 Mar 2020 11:11:18 ::1: Word forms requested for word: 'войнам'
+INFO  18 Mar 2020 11:11:18 ::1: Word forms requested for word: 'войнами'
+INFO  18 Mar 2020 11:11:18 ::1: Word forms requested for word: 'войнах'
+INFO  18 Mar 2020 11:11:18 ::1: Word forms requested for word: 'войной'
+INFO  18 Mar 2020 11:11:18 ::1: Word forms requested for word: 'войну'
+INFO  18 Mar 2020 11:11:18 ::1: Word forms requested for word: 'война'
+INFO  18 Mar 2020 11:11:18 ::1: Word forms requested for word: ''
+ERROR 18 Mar 2020 11:11:18 ::1:    at ssentencesExtractorApi.Repos.LingvRepo.GetWordForms(String wordForm) in /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi/Repos/LingvRepo.cs:line 31
+   at ssentencesExtractorApi.Controllers.LingvController.GetWordForms(String wordForm) in /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi/Controllers/LingvController.cs:line 29
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at ssentencesExtractorApi.ExceptionsHandlerMiddleware.Invoke(HttpContext context) in /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi/ExceptionsHandlerMiddleware.cs:line 25
+INFO  18 Mar 2020 11:11:48 ::1: Word forms requested for word: ''
+INFO  18 Mar 2020 11:11:48 ::1: Word forms requested for word: 'войне'
+INFO  18 Mar 2020 11:11:48 ::1: Word forms requested for word: 'война'
+INFO  18 Mar 2020 11:11:48 ::1: Word forms requested for word: 'войной'
+ERROR 18 Mar 2020 11:11:48 ::1:    at ssentencesExtractorApi.Repos.LingvRepo.GetWordForms(String wordForm) in /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi/Repos/LingvRepo.cs:line 31
+   at ssentencesExtractorApi.Controllers.LingvController.GetWordForms(String wordForm) in /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi/Controllers/LingvController.cs:line 29
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at ssentencesExtractorApi.ExceptionsHandlerMiddleware.Invoke(HttpContext context) in /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi/ExceptionsHandlerMiddleware.cs:line 25
+INFO  18 Mar 2020 11:11:48 ::1: Word forms requested for word: '5'
+INFO  18 Mar 2020 11:11:48 ::1: Word forms requested for word: '1945'
+INFO  18 Mar 2020 11:11:49 ::1: Word forms requested for word: 'гитлер'
+INFO  18 Mar 2020 11:11:49 ::1: Word forms requested for word: 'сталин'
+INFO  18 Mar 2020 11:11:49 ::1: Word forms requested for word: 'побед'
+INFO  18 Mar 2020 11:11:49 ::1: Word forms requested for word: 'войною'
+INFO  18 Mar 2020 11:11:49 ::1: Word forms requested for word: 'войны'
+INFO  18 Mar 2020 11:11:49 ::1: Word forms requested for word: 'войн'
+INFO  18 Mar 2020 11:11:49 ::1: Word forms requested for word: 'войнам'
+INFO  18 Mar 2020 11:11:49 ::1: Word forms requested for word: 'войнами'
+INFO  18 Mar 2020 11:11:49 ::1: Word forms requested for word: 'войнах'
+INFO  18 Mar 2020 11:11:49 ::1: Word forms requested for word: 'войну'
+INFO  18 Mar 2020 11:11:49 ::1: Word forms requested for word: 'победах'
+INFO  18 Mar 2020 11:11:49 ::1: Word forms requested for word: 'победа'
+INFO  18 Mar 2020 11:11:49 ::1: Word forms requested for word: 'победы'
+INFO  18 Mar 2020 11:11:49 ::1: Word forms requested for word: 'победу'
+INFO  18 Mar 2020 11:11:49 ::1: Word forms requested for word: 'победе'
+INFO  18 Mar 2020 11:11:49 ::1: Word forms requested for word: 'победой'
+INFO  18 Mar 2020 11:11:49 ::1: Word forms requested for word: 'победою'
+INFO  18 Mar 2020 11:11:49 ::1: Word forms requested for word: 'победам'
+INFO  18 Mar 2020 11:11:49 ::1: Word forms requested for word: 'победами'
+INFO  18 Mar 2020 11:11:53 ::1: Word forms requested for word: 'война'
+INFO  18 Mar 2020 11:12:04 ::1: Word forms requested for word: 'война'
+INFO  18 Mar 2020 11:12:12 ::1: Word forms requested for word: 'война'
+INFO  18 Mar 2020 11:12:12 ::1: Word forms requested for word: 'войною'
+INFO  18 Mar 2020 11:12:17 ::1: Word forms requested for word: 'война'
+INFO  18 Mar 2020 11:12:17 ::1: Word forms requested for word: 'войне'
+INFO  18 Mar 2020 11:12:17 ::1: Word forms requested for word: 'войною'
+INFO  18 Mar 2020 11:12:27 ::1: Word forms requested for word: 'война'
+INFO  18 Mar 2020 11:12:27 ::1: Word forms requested for word: ''
+INFO  18 Mar 2020 11:12:27 ::1: Word forms requested for word: 'войне'
+INFO  18 Mar 2020 11:12:27 ::1: Word forms requested for word: '5'
+INFO  18 Mar 2020 11:12:27 ::1: Word forms requested for word: 'войной'
+INFO  18 Mar 2020 11:12:27 ::1: Word forms requested for word: '1945'
+INFO  18 Mar 2020 11:12:27 ::1: Word forms requested for word: 'гитлер'
+ERROR 18 Mar 2020 11:12:27 ::1:    at ssentencesExtractorApi.Repos.LingvRepo.GetWordForms(String wordForm) in /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi/Repos/LingvRepo.cs:line 31
+   at ssentencesExtractorApi.Controllers.LingvController.GetWordForms(String wordForm) in /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi/Controllers/LingvController.cs:line 29
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at ssentencesExtractorApi.ExceptionsHandlerMiddleware.Invoke(HttpContext context) in /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi/ExceptionsHandlerMiddleware.cs:line 25
+INFO  18 Mar 2020 11:12:27 ::1: Word forms requested for word: 'сталин'
+INFO  18 Mar 2020 11:12:27 ::1: Word forms requested for word: 'войною'
+INFO  18 Mar 2020 11:12:27 ::1: Word forms requested for word: 'войн'
+INFO  18 Mar 2020 11:12:27 ::1: Word forms requested for word: 'войнам'
+INFO  18 Mar 2020 11:12:27 ::1: Word forms requested for word: 'войнами'
+INFO  18 Mar 2020 11:12:27 ::1: Word forms requested for word: 'побед'
+INFO  18 Mar 2020 11:12:27 ::1: Word forms requested for word: 'войнах'
+INFO  18 Mar 2020 11:12:27 ::1: Word forms requested for word: 'войны'
+INFO  18 Mar 2020 11:12:27 ::1: Word forms requested for word: 'войну'
+INFO  18 Mar 2020 11:12:27 ::1: Word forms requested for word: 'победах'
+INFO  18 Mar 2020 11:12:27 ::1: Word forms requested for word: 'победа'
+INFO  18 Mar 2020 11:12:27 ::1: Word forms requested for word: 'победы'
+INFO  18 Mar 2020 11:12:27 ::1: Word forms requested for word: 'победе'
+INFO  18 Mar 2020 11:12:27 ::1: Word forms requested for word: 'победу'
+INFO  18 Mar 2020 11:12:27 ::1: Word forms requested for word: 'победой'
+INFO  18 Mar 2020 11:12:27 ::1: Word forms requested for word: 'победою'
+INFO  18 Mar 2020 11:12:27 ::1: Word forms requested for word: 'победам'
+INFO  18 Mar 2020 11:12:27 ::1: Word forms requested for word: 'победами'
+INFO  18 Mar 2020 11:12:35 ::1: Word forms requested for word: 'война'
+INFO  18 Mar 2020 11:12:35 ::1: Word forms requested for word: ''
+INFO  18 Mar 2020 11:12:35 ::1: Word forms requested for word: 'войне'
+INFO  18 Mar 2020 11:12:35 ::1: Word forms requested for word: '5'
+INFO  18 Mar 2020 11:12:35 ::1: Word forms requested for word: '1945'
+INFO  18 Mar 2020 11:12:35 ::1: Word forms requested for word: 'войной'
+ERROR 18 Mar 2020 11:12:35 ::1:    at ssentencesExtractorApi.Repos.LingvRepo.GetWordForms(String wordForm) in /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi/Repos/LingvRepo.cs:line 31
+   at ssentencesExtractorApi.Controllers.LingvController.GetWordForms(String wordForm) in /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi/Controllers/LingvController.cs:line 29
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at ssentencesExtractorApi.ExceptionsHandlerMiddleware.Invoke(HttpContext context) in /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi/ExceptionsHandlerMiddleware.cs:line 25
+INFO  18 Mar 2020 11:12:35 ::1: Word forms requested for word: 'гитлер'
+INFO  18 Mar 2020 11:12:35 ::1: Word forms requested for word: 'сталин'
+INFO  18 Mar 2020 11:12:35 ::1: Word forms requested for word: 'побед'
+INFO  18 Mar 2020 11:12:35 ::1: Word forms requested for word: 'войною'
+INFO  18 Mar 2020 11:12:35 ::1: Word forms requested for word: 'войны'
+INFO  18 Mar 2020 11:12:35 ::1: Word forms requested for word: 'войн'
+INFO  18 Mar 2020 11:12:35 ::1: Word forms requested for word: 'войнам'
+INFO  18 Mar 2020 11:12:35 ::1: Word forms requested for word: 'войнами'
+INFO  18 Mar 2020 11:12:35 ::1: Word forms requested for word: 'войнах'
+INFO  18 Mar 2020 11:12:35 ::1: Word forms requested for word: 'войну'
+INFO  18 Mar 2020 11:12:35 ::1: Word forms requested for word: 'победах'
+INFO  18 Mar 2020 11:12:35 ::1: Word forms requested for word: 'победа'
+INFO  18 Mar 2020 11:12:35 ::1: Word forms requested for word: 'победы'
+INFO  18 Mar 2020 11:12:35 ::1: Word forms requested for word: 'победе'
+INFO  18 Mar 2020 11:12:35 ::1: Word forms requested for word: 'победу'
+INFO  18 Mar 2020 11:12:35 ::1: Word forms requested for word: 'победой'
+INFO  18 Mar 2020 11:12:35 ::1: Word forms requested for word: 'победою'
+INFO  18 Mar 2020 11:12:35 ::1: Word forms requested for word: 'победам'
+INFO  18 Mar 2020 11:12:35 ::1: Word forms requested for word: 'победами'
+INFO  18 Mar 2020 11:12:43 ::1: Word forms requested for word: 'война'
+INFO  18 Mar 2020 11:12:43 ::1: Word forms requested for word: ''
+INFO  18 Mar 2020 11:12:43 ::1: Word forms requested for word: 'войне'
+INFO  18 Mar 2020 11:12:43 ::1: Word forms requested for word: 'войной'
+INFO  18 Mar 2020 11:12:43 ::1: Word forms requested for word: 'гитлер'
+INFO  18 Mar 2020 11:12:43 ::1: Word forms requested for word: 'сталин'
+ERROR 18 Mar 2020 11:12:43 ::1:    at ssentencesExtractorApi.Repos.LingvRepo.GetWordForms(String wordForm) in /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi/Repos/LingvRepo.cs:line 31
+   at ssentencesExtractorApi.Controllers.LingvController.GetWordForms(String wordForm) in /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi/Controllers/LingvController.cs:line 29
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at ssentencesExtractorApi.ExceptionsHandlerMiddleware.Invoke(HttpContext context) in /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi/ExceptionsHandlerMiddleware.cs:line 25
+INFO  18 Mar 2020 11:12:43 ::1: Word forms requested for word: 'побед'
+INFO  18 Mar 2020 11:12:43 ::1: Word forms requested for word: 'войною'
+INFO  18 Mar 2020 11:12:43 ::1: Word forms requested for word: 'войн'
+INFO  18 Mar 2020 11:12:43 ::1: Word forms requested for word: 'войнам'
+INFO  18 Mar 2020 11:12:43 ::1: Word forms requested for word: 'войнами'
+INFO  18 Mar 2020 11:12:43 ::1: Word forms requested for word: 'войны'
+INFO  18 Mar 2020 11:12:43 ::1: Word forms requested for word: 'войнах'
+INFO  18 Mar 2020 11:12:43 ::1: Word forms requested for word: 'войну'
+INFO  18 Mar 2020 11:12:43 ::1: Word forms requested for word: 'победах'
+INFO  18 Mar 2020 11:12:43 ::1: Word forms requested for word: 'победа'
+INFO  18 Mar 2020 11:12:43 ::1: Word forms requested for word: 'победы'
+INFO  18 Mar 2020 11:12:43 ::1: Word forms requested for word: 'победе'
+INFO  18 Mar 2020 11:12:43 ::1: Word forms requested for word: 'победу'
+INFO  18 Mar 2020 11:12:43 ::1: Word forms requested for word: 'победой'
+INFO  18 Mar 2020 11:12:43 ::1: Word forms requested for word: 'победою'
+INFO  18 Mar 2020 11:12:43 ::1: Word forms requested for word: 'победам'
+INFO  18 Mar 2020 11:12:43 ::1: Word forms requested for word: 'победами'
+INFO  18 Mar 2020 11:13:04 ::1: Word forms requested for word: 'xxx'
+INFO  18 Mar 2020 11:13:09 ::1: Word forms requested for word: 'война'
+INFO  18 Mar 2020 11:13:09 ::1: Word forms requested for word: 'войной'
+INFO  18 Mar 2020 11:13:09 ::1: Word forms requested for word: '1945'
+INFO  18 Mar 2020 11:13:09 ::1: Word forms requested for word: ''
+INFO  18 Mar 2020 11:13:09 ::1: Word forms requested for word: 'гитлер'
+INFO  18 Mar 2020 11:13:09 ::1: Word forms requested for word: 'войне'
+INFO  18 Mar 2020 11:13:09 ::1: Word forms requested for word: '5'
+INFO  18 Mar 2020 11:13:09 ::1: Word forms requested for word: 'сталин'
+ERROR 18 Mar 2020 11:13:09 ::1:    at ssentencesExtractorApi.Repos.LingvRepo.GetWordForms(String wordForm) in /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi/Repos/LingvRepo.cs:line 31
+   at ssentencesExtractorApi.Controllers.LingvController.GetWordForms(String wordForm) in /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi/Controllers/LingvController.cs:line 29
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at ssentencesExtractorApi.ExceptionsHandlerMiddleware.Invoke(HttpContext context) in /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi/ExceptionsHandlerMiddleware.cs:line 25
+INFO  18 Mar 2020 11:13:09 ::1: Word forms requested for word: 'побед'
+INFO  18 Mar 2020 11:13:09 ::1: Word forms requested for word: 'войною'
+INFO  18 Mar 2020 11:13:09 ::1: Word forms requested for word: 'войн'
+INFO  18 Mar 2020 11:13:09 ::1: Word forms requested for word: 'войны'
+INFO  18 Mar 2020 11:13:09 ::1: Word forms requested for word: 'войнам'
+INFO  18 Mar 2020 11:13:09 ::1: Word forms requested for word: 'войнами'
+INFO  18 Mar 2020 11:13:09 ::1: Word forms requested for word: 'войнах'
+INFO  18 Mar 2020 11:13:09 ::1: Word forms requested for word: 'войну'
+INFO  18 Mar 2020 11:13:09 ::1: Word forms requested for word: 'победах'
+INFO  18 Mar 2020 11:13:09 ::1: Word forms requested for word: 'победа'
+INFO  18 Mar 2020 11:13:09 ::1: Word forms requested for word: 'победы'
+INFO  18 Mar 2020 11:13:09 ::1: Word forms requested for word: 'победе'
+INFO  18 Mar 2020 11:13:09 ::1: Word forms requested for word: 'победу'
+INFO  18 Mar 2020 11:13:09 ::1: Word forms requested for word: 'победой'
+INFO  18 Mar 2020 11:13:09 ::1: Word forms requested for word: 'победою'
+INFO  18 Mar 2020 11:13:09 ::1: Word forms requested for word: 'победами'
+INFO  18 Mar 2020 11:13:09 ::1: Word forms requested for word: 'победам'
+INFO  18 Mar 2020 11:13:15 ::1: Word forms requested for word: 'война'
+INFO  18 Mar 2020 11:13:22 ::1: Word forms requested for word: 'война'
+INFO  18 Mar 2020 11:13:22 ::1: Word forms requested for word: ''
+INFO  18 Mar 2020 11:13:22 ::1: Word forms requested for word: 'войной'
+INFO  18 Mar 2020 11:13:22 ::1: Word forms requested for word: '5'
+INFO  18 Mar 2020 11:13:22 ::1: Word forms requested for word: 'войне'
+INFO  18 Mar 2020 11:13:22 ::1: Word forms requested for word: '1945'
+ERROR 18 Mar 2020 11:13:22 ::1:    at ssentencesExtractorApi.Repos.LingvRepo.GetWordForms(String wordForm) in /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi/Repos/LingvRepo.cs:line 31
+   at ssentencesExtractorApi.Controllers.LingvController.GetWordForms(String wordForm) in /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi/Controllers/LingvController.cs:line 29
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at ssentencesExtractorApi.ExceptionsHandlerMiddleware.Invoke(HttpContext context) in /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi/ExceptionsHandlerMiddleware.cs:line 25
+INFO  18 Mar 2020 11:13:27 ::1: Word forms requested for word: ''
+INFO  18 Mar 2020 11:13:27 ::1: Word forms requested for word: 'война'
+INFO  18 Mar 2020 11:13:27 ::1: Word forms requested for word: 'войне'
+INFO  18 Mar 2020 11:13:27 ::1: Word forms requested for word: '5'
+INFO  18 Mar 2020 11:13:27 ::1: Word forms requested for word: '1945'
+INFO  18 Mar 2020 11:13:27 ::1: Word forms requested for word: 'войной'
+ERROR 18 Mar 2020 11:13:27 ::1:    at ssentencesExtractorApi.Repos.LingvRepo.GetWordForms(String wordForm) in /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi/Repos/LingvRepo.cs:line 31
+   at ssentencesExtractorApi.Controllers.LingvController.GetWordForms(String wordForm) in /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi/Controllers/LingvController.cs:line 29
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at ssentencesExtractorApi.ExceptionsHandlerMiddleware.Invoke(HttpContext context) in /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi/ExceptionsHandlerMiddleware.cs:line 25
+INFO  18 Mar 2020 11:13:27 ::1: Word forms requested for word: 'войною'
+INFO  18 Mar 2020 11:13:27 ::1: Word forms requested for word: 'войны'
+INFO  18 Mar 2020 11:13:27 ::1: Word forms requested for word: 'войн'
+INFO  18 Mar 2020 11:13:27 ::1: Word forms requested for word: 'войнам'
+INFO  18 Mar 2020 11:13:27 ::1: Word forms requested for word: 'войнами'
+INFO  18 Mar 2020 11:13:27 ::1: Word forms requested for word: 'войнах'
+INFO  18 Mar 2020 11:13:27 ::1: Word forms requested for word: 'войну'
+INFO  18 Mar 2020 11:13:35 ::1: Word forms requested for word: 'война'
+INFO  18 Mar 2020 11:13:35 ::1: Word forms requested for word: 'войне'
+INFO  18 Mar 2020 11:13:35 ::1: Word forms requested for word: 'войной'
+INFO  18 Mar 2020 11:13:35 ::1: Word forms requested for word: ''
+INFO  18 Mar 2020 11:13:35 ::1: Word forms requested for word: '5'
+INFO  18 Mar 2020 11:13:35 ::1: Word forms requested for word: '1945'
+ERROR 18 Mar 2020 11:13:35 ::1:    at ssentencesExtractorApi.Repos.LingvRepo.GetWordForms(String wordForm) in /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi/Repos/LingvRepo.cs:line 31
+   at ssentencesExtractorApi.Controllers.LingvController.GetWordForms(String wordForm) in /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi/Controllers/LingvController.cs:line 29
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at ssentencesExtractorApi.ExceptionsHandlerMiddleware.Invoke(HttpContext context) in /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi/ExceptionsHandlerMiddleware.cs:line 25
+INFO  18 Mar 2020 11:13:38 ::1: Word forms requested for word: 'война'
+INFO  18 Mar 2020 11:13:38 ::1: Word forms requested for word: 'войной'
+INFO  18 Mar 2020 11:13:38 ::1: Word forms requested for word: ''
+INFO  18 Mar 2020 11:13:38 ::1: Word forms requested for word: 'войне'
+INFO  18 Mar 2020 11:13:38 ::1: Word forms requested for word: '5'
+ERROR 18 Mar 2020 11:13:38 ::1:    at ssentencesExtractorApi.Repos.LingvRepo.GetWordForms(String wordForm) in /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi/Repos/LingvRepo.cs:line 31
+   at ssentencesExtractorApi.Controllers.LingvController.GetWordForms(String wordForm) in /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi/Controllers/LingvController.cs:line 29
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at ssentencesExtractorApi.ExceptionsHandlerMiddleware.Invoke(HttpContext context) in /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi/ExceptionsHandlerMiddleware.cs:line 25
+INFO  18 Mar 2020 11:13:42 ::1: Word forms requested for word: 'война'
+INFO  18 Mar 2020 11:13:42 ::1: Word forms requested for word: ''
+INFO  18 Mar 2020 11:13:42 ::1: Word forms requested for word: 'войне'
+ERROR 18 Mar 2020 11:13:42 ::1:    at ssentencesExtractorApi.Repos.LingvRepo.GetWordForms(String wordForm) in /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi/Repos/LingvRepo.cs:line 31
+   at ssentencesExtractorApi.Controllers.LingvController.GetWordForms(String wordForm) in /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi/Controllers/LingvController.cs:line 29
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at ssentencesExtractorApi.ExceptionsHandlerMiddleware.Invoke(HttpContext context) in /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi/ExceptionsHandlerMiddleware.cs:line 25
+INFO  18 Mar 2020 11:13:42 ::1: Word forms requested for word: 'войной'
+INFO  18 Mar 2020 11:13:54 ::1: Word forms requested for word: 'войной'
+INFO  18 Mar 2020 11:13:54 ::1: Word forms requested for word: 'войною'
+INFO  18 Mar 2020 11:14:00 ::1: Word forms requested for word: 'войной'
+INFO  18 Mar 2020 11:14:00 ::1: Word forms requested for word: 'войною'
+INFO  18 Mar 2020 11:14:03 ::1: Word forms requested for word: 'войной'
+INFO  18 Mar 2020 11:14:07 ::1: Word forms requested for word: 'войной'
+INFO  18 Mar 2020 11:14:07 ::1: Word forms requested for word: 'войною'
+INFO  18 Mar 2020 11:14:07 ::1: Word forms requested for word: 'войне'
+INFO  18 Mar 2020 11:14:09 ::1: Word forms requested for word: 'войною'
+INFO  18 Mar 2020 11:14:09 ::1: Word forms requested for word: 'войной'
+INFO  18 Mar 2020 11:14:09 ::1: Word forms requested for word: 'войны'
+INFO  18 Mar 2020 11:14:09 ::1: Word forms requested for word: 'войн'
+INFO  18 Mar 2020 11:14:09 ::1: Word forms requested for word: 'войне'
+INFO  18 Mar 2020 11:14:09 ::1: Word forms requested for word: 'войнам'
+INFO  18 Mar 2020 11:14:10 ::1: Word forms requested for word: 'войнами'
+INFO  18 Mar 2020 11:14:10 ::1: Word forms requested for word: 'войнах'
+INFO  18 Mar 2020 11:14:10 ::1: Word forms requested for word: 'войну'
+INFO  18 Mar 2020 11:14:10 ::1: Word forms requested for word: 'война'
+INFO  18 Mar 2020 11:14:10 ::1: Word forms requested for word: 'войной'
+INFO  18 Mar 2020 11:14:10 ::1: Word forms requested for word: 'войною'
+INFO  18 Mar 2020 11:14:10 ::1: Word forms requested for word: 'войне'
+INFO  18 Mar 2020 11:14:10 ::1: Word forms requested for word: 'войн'
+INFO  18 Mar 2020 11:14:10 ::1: Word forms requested for word: 'войны'
+INFO  18 Mar 2020 11:14:10 ::1: Word forms requested for word: 'войнам'
+INFO  18 Mar 2020 11:14:10 ::1: Word forms requested for word: 'войнами'
+INFO  18 Mar 2020 11:14:10 ::1: Word forms requested for word: 'войнах'
+INFO  18 Mar 2020 11:14:10 ::1: Word forms requested for word: 'войну'
+INFO  18 Mar 2020 11:14:10 ::1: Word forms requested for word: 'война'
+INFO  18 Mar 2020 11:14:10 ::1: Word forms requested for word: 'войной'
+INFO  18 Mar 2020 11:14:10 ::1: Word forms requested for word: 'войны'
+INFO  18 Mar 2020 11:14:10 ::1: Word forms requested for word: 'войне'
+INFO  18 Mar 2020 11:14:10 ::1: Word forms requested for word: 'войною'
+INFO  18 Mar 2020 11:14:11 ::1: Word forms requested for word: 'войн'
+INFO  18 Mar 2020 11:14:11 ::1: Word forms requested for word: 'войнам'
+INFO  18 Mar 2020 11:14:11 ::1: Word forms requested for word: 'войнами'
+INFO  18 Mar 2020 11:14:11 ::1: Word forms requested for word: 'войнах'
+INFO  18 Mar 2020 11:14:11 ::1: Word forms requested for word: 'войну'
+INFO  18 Mar 2020 11:14:11 ::1: Word forms requested for word: 'война'
+INFO  18 Mar 2020 11:14:13 ::1: Word forms requested for word: 'война'
+INFO  18 Mar 2020 11:14:13 ::1: Word forms requested for word: ''
+INFO  18 Mar 2020 11:14:13 ::1: Word forms requested for word: 'войне'
+INFO  18 Mar 2020 11:14:13 ::1: Word forms requested for word: 'войной'
+INFO  18 Mar 2020 11:14:13 ::1: Word forms requested for word: '5'
+ERROR 18 Mar 2020 11:14:13 ::1:    at ssentencesExtractorApi.Repos.LingvRepo.GetWordForms(String wordForm) in /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi/Repos/LingvRepo.cs:line 31
+   at ssentencesExtractorApi.Controllers.LingvController.GetWordForms(String wordForm) in /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi/Controllers/LingvController.cs:line 29
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at ssentencesExtractorApi.ExceptionsHandlerMiddleware.Invoke(HttpContext context) in /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi/ExceptionsHandlerMiddleware.cs:line 25
+INFO  18 Mar 2020 11:14:13 ::1: Word forms requested for word: '1945'
+INFO  18 Mar 2020 11:14:13 ::1: Word forms requested for word: 'войною'
+INFO  18 Mar 2020 11:14:13 ::1: Word forms requested for word: 'войны'
+INFO  18 Mar 2020 11:14:13 ::1: Word forms requested for word: 'войн'
+INFO  18 Mar 2020 11:14:13 ::1: Word forms requested for word: 'войнам'
+INFO  18 Mar 2020 11:14:13 ::1: Word forms requested for word: 'войнами'
+INFO  18 Mar 2020 11:14:13 ::1: Word forms requested for word: 'войнах'
+INFO  18 Mar 2020 11:14:13 ::1: Word forms requested for word: 'войну'
+INFO  18 Mar 2020 11:14:21 ::1: Word forms requested for word: '5'
+INFO  18 Mar 2020 11:14:21 ::1: Word forms requested for word: '1945'
+INFO  18 Mar 2020 11:14:24 ::1: Word forms requested for word: '5'
+INFO  18 Mar 2020 11:14:24 ::1: Word forms requested for word: '1945война'
+INFO  18 Mar 2020 11:14:24 ::1: Word forms requested for word: ''
+INFO  18 Mar 2020 11:14:24 ::1: Word forms requested for word: 'войне'
+INFO  18 Mar 2020 11:14:24 ::1: Word forms requested for word: 'войной'
+INFO  18 Mar 2020 11:14:24 ::1: Word forms requested for word: '1945'
+ERROR 18 Mar 2020 11:14:24 ::1:    at ssentencesExtractorApi.Repos.LingvRepo.GetWordForms(String wordForm) in /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi/Repos/LingvRepo.cs:line 31
+   at ssentencesExtractorApi.Controllers.LingvController.GetWordForms(String wordForm) in /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi/Controllers/LingvController.cs:line 29
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at ssentencesExtractorApi.ExceptionsHandlerMiddleware.Invoke(HttpContext context) in /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi/ExceptionsHandlerMiddleware.cs:line 25
+INFO  18 Mar 2020 11:14:24 ::1: Word forms requested for word: 'войною'
+INFO  18 Mar 2020 11:14:24 ::1: Word forms requested for word: 'войны'
+INFO  18 Mar 2020 11:14:24 ::1: Word forms requested for word: 'войн'
+INFO  18 Mar 2020 11:14:24 ::1: Word forms requested for word: 'войнам'
+INFO  18 Mar 2020 11:14:24 ::1: Word forms requested for word: 'войнами'
+INFO  18 Mar 2020 11:14:24 ::1: Word forms requested for word: 'войнах'
+INFO  18 Mar 2020 11:14:24 ::1: Word forms requested for word: 'войну'
+INFO  18 Mar 2020 11:14:29 ::1: Word forms requested for word: 'война'
+INFO  18 Mar 2020 11:14:34 ::1: Word forms requested for word: 'война'
+INFO  18 Mar 2020 11:14:34 ::1: Word forms requested for word: 'войною'
+INFO  18 Mar 2020 11:14:34 ::1: Word forms requested for word: 'войны'
+INFO  18 Mar 2020 11:14:34 ::1: Word forms requested for word: 'войне'
+INFO  18 Mar 2020 11:14:34 ::1: Word forms requested for word: 'войн'
+INFO  18 Mar 2020 11:14:34 ::1: Word forms requested for word: 'войнам'
+INFO  18 Mar 2020 11:14:34 ::1: Word forms requested for word: 'войну'
+INFO  18 Mar 2020 11:14:34 ::1: Word forms requested for word: 'войнами'
+INFO  18 Mar 2020 11:14:34 ::1: Word forms requested for word: 'войнах'
+INFO  18 Mar 2020 11:14:34 ::1: Word forms requested for word: 'войной'
+INFO  18 Mar 2020 11:14:34 ::1: Word forms requested for word: 'война'
+INFO  18 Mar 2020 11:14:34 ::1: Word forms requested for word: 'войною'
+INFO  18 Mar 2020 11:14:34 ::1: Word forms requested for word: 'войн'
+INFO  18 Mar 2020 11:14:34 ::1: Word forms requested for word: 'войне'
+INFO  18 Mar 2020 11:14:34 ::1: Word forms requested for word: 'войны'
+INFO  18 Mar 2020 11:14:34 ::1: Word forms requested for word: 'войнам'
+INFO  18 Mar 2020 11:14:34 ::1: Word forms requested for word: 'войной'
+INFO  18 Mar 2020 11:14:34 ::1: Word forms requested for word: 'войнами'
+INFO  18 Mar 2020 11:14:34 ::1: Word forms requested for word: 'войнах'
+INFO  18 Mar 2020 11:14:34 ::1: Word forms requested for word: 'войну'
+INFO  18 Mar 2020 11:14:34 ::1: Word forms requested for word: 'война'
+INFO  18 Mar 2020 11:14:34 ::1: Word forms requested for word: 'войне'
+INFO  18 Mar 2020 11:14:34 ::1: Word forms requested for word: 'войною'
+INFO  18 Mar 2020 11:14:34 ::1: Word forms requested for word: 'войны'
+INFO  18 Mar 2020 11:14:34 ::1: Word forms requested for word: 'войн'
+INFO  18 Mar 2020 11:14:34 ::1: Word forms requested for word: 'войнам'
+INFO  18 Mar 2020 11:14:34 ::1: Word forms requested for word: 'войнами'
+INFO  18 Mar 2020 11:14:34 ::1: Word forms requested for word: 'войнах'
+INFO  18 Mar 2020 11:14:34 ::1: Word forms requested for word: 'войной'
+INFO  18 Mar 2020 11:14:34 ::1: Word forms requested for word: 'войну'
+INFO  18 Mar 2020 11:14:35 ::1: Word forms requested for word: 'война'
+INFO  18 Mar 2020 11:14:35 ::1: Word forms requested for word: 'войною'
+INFO  18 Mar 2020 11:14:35 ::1: Word forms requested for word: 'войне'
+INFO  18 Mar 2020 11:14:35 ::1: Word forms requested for word: 'войны'
+INFO  18 Mar 2020 11:14:35 ::1: Word forms requested for word: 'войн'
+INFO  18 Mar 2020 11:14:35 ::1: Word forms requested for word: 'войнам'
+INFO  18 Mar 2020 11:14:35 ::1: Word forms requested for word: 'войнами'
+INFO  18 Mar 2020 11:14:35 ::1: Word forms requested for word: 'войнах'
+INFO  18 Mar 2020 11:14:35 ::1: Word forms requested for word: 'войной'
+INFO  18 Mar 2020 11:14:35 ::1: Word forms requested for word: 'войну'
+INFO  18 Mar 2020 11:18:41 ::1: Word forms requested for word: 'картошечка'
+INFO  18 Mar 2020 11:18:41 ::1: Word forms requested for word: 'война'
+INFO  18 Mar 2020 11:31:38 ::1: Word forms requested for word: ''
+ERROR 18 Mar 2020 11:31:38 ::1:    at ssentencesExtractorApi.Repos.LingvRepo.GetWordForms(String wordForm) in /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi/Repos/LingvRepo.cs:line 31
+   at ssentencesExtractorApi.Controllers.LingvController.GetWordForms(String wordForm) in /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi/Controllers/LingvController.cs:line 29
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at ssentencesExtractorApi.ExceptionsHandlerMiddleware.Invoke(HttpContext context) in /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi/ExceptionsHandlerMiddleware.cs:line 25
+INFO  18 Mar 2020 11:31:58 ::1: Word forms requested for word: ''
+ERROR 18 Mar 2020 11:31:59 ::1:    at ssentencesExtractorApi.Repos.LingvRepo.GetWordForms(String wordForm) in /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi/Repos/LingvRepo.cs:line 31
+   at ssentencesExtractorApi.Controllers.LingvController.GetWordForms(String wordForm) in /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi/Controllers/LingvController.cs:line 29
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at ssentencesExtractorApi.ExceptionsHandlerMiddleware.Invoke(HttpContext context) in /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi/ExceptionsHandlerMiddleware.cs:line 25
+INFO  18 Mar 2020 11:32:24 Application is shutting down...
+INFO  18 Mar 2020 11:32:48 Now listening on: http://localhost:44381
+INFO  18 Mar 2020 11:32:48 Application started. Press Ctrl+C to shut down.
+INFO  18 Mar 2020 11:32:48 Hosting environment: Development
+INFO  18 Mar 2020 11:32:48 Content root path: /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi
+WARN  18 Mar 2020 11:32:49 Failed to determine the https port for redirect.
+INFO  18 Mar 2020 11:33:23 ::1: Word forms requested for word: ''
+INFO  18 Mar 2020 11:34:29 Now listening on: http://localhost:44381
+INFO  18 Mar 2020 11:34:29 Application started. Press Ctrl+C to shut down.
+INFO  18 Mar 2020 11:34:29 Hosting environment: Development
+INFO  18 Mar 2020 11:34:29 Content root path: /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi
+WARN  18 Mar 2020 11:35:02 Failed to determine the https port for redirect.
+INFO  18 Mar 2020 11:35:03 ::1: Word forms requested for word: ''
+INFO  18 Mar 2020 11:35:09 ::1: Word forms requested for word: ''
+INFO  18 Mar 2020 11:35:09 ::1: Word forms requested for word: 'войной'
+INFO  18 Mar 2020 11:35:09 ::1: Word forms requested for word: 'войне'
+INFO  18 Mar 2020 11:35:09 ::1: Word forms requested for word: '5'
+INFO  18 Mar 2020 11:35:09 ::1: Word forms requested for word: 'война'
+INFO  18 Mar 2020 11:35:10 ::1: Word forms requested for word: '1945'
+INFO  18 Mar 2020 11:35:11 ::1: Word forms requested for word: 'войною'
+INFO  18 Mar 2020 11:35:11 ::1: Word forms requested for word: 'войн'
+INFO  18 Mar 2020 11:35:11 ::1: Word forms requested for word: 'войны'
+INFO  18 Mar 2020 11:35:11 ::1: Word forms requested for word: 'войнами'
+INFO  18 Mar 2020 11:35:11 ::1: Word forms requested for word: 'войнах'
+INFO  18 Mar 2020 11:35:11 ::1: Word forms requested for word: 'войнам'
+INFO  18 Mar 2020 11:35:11 ::1: Word forms requested for word: 'войну'
+INFO  18 Mar 2020 11:35:15 ::1: Word forms requested for word: 'войне'
+INFO  18 Mar 2020 11:35:15 ::1: Word forms requested for word: 'войной'
+INFO  18 Mar 2020 11:35:15 ::1: Word forms requested for word: ''
+INFO  18 Mar 2020 11:35:15 ::1: Word forms requested for word: 'война'
+INFO  18 Mar 2020 11:35:29 ::1: Word forms requested for word: 'фрагмент'
+INFO  18 Mar 2020 11:35:29 ::1: Word forms requested for word: 'кошечка'
+INFO  18 Mar 2020 11:35:29 ::1: Word forms requested for word: ''
+INFO  18 Mar 2020 11:35:46 ::1: Word forms requested for word: 'пам'
+INFO  18 Mar 2020 11:35:46 ::1: Word forms requested for word: 'рыбка'
+INFO  18 Mar 2020 11:35:46 ::1: Word forms requested for word: 'трам'
+INFO  18 Mar 2020 11:35:46 ::1: Word forms requested for word: 'зонт'
+INFO  18 Mar 2020 13:22:53 ::1: Word forms requested for word: 'жопа'
+INFO  18 Mar 2020 13:23:01 ::1: Word forms requested for word: 'жопа'
+INFO  18 Mar 2020 13:23:01 ::1: Word forms requested for word: 'жопе'
+INFO  18 Mar 2020 13:23:01 ::1: Word forms requested for word: 'жопы'
+INFO  18 Mar 2020 13:23:01 ::1: Word forms requested for word: 'жопу'
+INFO  18 Mar 2020 13:23:01 ::1: Word forms requested for word: 'жопой'
+INFO  18 Mar 2020 13:23:01 ::1: Word forms requested for word: 'жопою'
+INFO  18 Mar 2020 13:23:01 ::1: Word forms requested for word: 'жоп'
+INFO  18 Mar 2020 13:23:01 ::1: Word forms requested for word: 'жопам'
+INFO  18 Mar 2020 13:23:01 ::1: Word forms requested for word: 'жопами'
+INFO  18 Mar 2020 13:23:01 ::1: Word forms requested for word: 'жопах'
+INFO  18 Mar 2020 13:23:01 ::1: Word forms requested for word: 'писька'
+INFO  18 Mar 2020 13:23:10 ::1: Word forms requested for word: 'жопа'
+INFO  18 Mar 2020 13:23:10 ::1: Word forms requested for word: 'писька'
+INFO  18 Mar 2020 13:23:10 ::1: Word forms requested for word: 'гитлер'
+INFO  18 Mar 2020 13:23:20 ::1: Word forms requested for word: 'блядь'
+INFO  18 Mar 2020 13:23:33 ::1: Word forms requested for word: 'кака'
+INFO  18 Mar 2020 13:23:39 ::1: Word forms requested for word: 'курица'
+INFO  18 Mar 2020 13:23:44 ::1: Word forms requested for word: 'кококо'
+INFO  18 Mar 2020 13:23:50 ::1: Word forms requested for word: 'вирус'
+INFO  18 Mar 2020 13:24:00 ::1: Word forms requested for word: 'коса'
+INFO  18 Mar 2020 13:24:01 ::1: Word forms requested for word: 'коса'
+INFO  18 Mar 2020 13:24:12 ::1: Word forms requested for word: 'коса'
+INFO  18 Mar 2020 13:24:18 ::1: Word forms requested for word: 'косы'
+INFO  18 Mar 2020 13:24:23 ::1: Word forms requested for word: 'коса'
+INFO  18 Mar 2020 13:24:31 ::1: Word forms requested for word: 'кефир'
+INFO  18 Mar 2020 13:24:37 ::1: Word forms requested for word: 'гипопатам'
+INFO  18 Mar 2020 13:24:54 ::1: Word forms requested for word: 'планшет'
+INFO  18 Mar 2020 13:24:59 ::1: Word forms requested for word: 'эвм'
+INFO  18 Mar 2020 13:25:04 ::1: Word forms requested for word: 'геббельс'
+INFO  18 Mar 2020 13:25:14 ::1: Word forms requested for word: 'лыжи'
+INFO  18 Mar 2020 13:25:41 ::1: Word forms requested for word: 'рекурсия'
+INFO  18 Mar 2020 13:25:42 ::1: Word forms requested for word: 'рекурсия'
+INFO  18 Mar 2020 13:25:57 ::1: Word forms requested for word: 'сири'
+INFO  18 Mar 2020 13:25:59 ::1: Word forms requested for word: 'сирия'
+INFO  18 Mar 2020 13:26:02 ::1: Word forms requested for word: 'москва'
+INFO  18 Mar 2020 13:26:06 ::1: Word forms requested for word: 'россия'
+INFO  19 Mar 2020 10:31:04 ::1: Word forms requested for word: 'привет'
+INFO  19 Mar 2020 10:31:14 ::1: Word forms requested for word: 'привет'
+INFO  19 Mar 2020 10:31:14 ::1: Word forms requested for word: 'рыбка'
+INFO  19 Mar 2020 10:31:14 ::1: Word forms requested for word: 'молоток'
+INFO  19 Mar 2020 20:19:47 ::1: Word forms requested for word: 'прическа'
+INFO  21 Mar 2020 10:46:41 ::1: Word forms requested for word: 'привет'
+INFO  21 Mar 2020 11:19:44 ::1: Word forms requested for word: 'hello'
+INFO  21 Mar 2020 11:20:43 ::1: Word forms requested for word: 'hello'
+INFO  21 Mar 2020 21:45:07 Application is shutting down...
+INFO  22 Mar 2020 09:53:14 Now listening on: http://localhost:44381
+INFO  22 Mar 2020 09:53:14 Application started. Press Ctrl+C to shut down.
+INFO  22 Mar 2020 09:53:14 Hosting environment: Development
+INFO  22 Mar 2020 09:53:14 Content root path: /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi
+INFO  22 Mar 2020 21:32:57 Now listening on: http://localhost:44381
+INFO  22 Mar 2020 21:32:57 Application started. Press Ctrl+C to shut down.
+INFO  22 Mar 2020 21:32:57 Hosting environment: Development
+INFO  22 Mar 2020 21:32:57 Content root path: /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi
+WARN  22 Mar 2020 21:58:53 Failed to determine the https port for redirect.
+INFO  22 Mar 2020 21:58:53 ::1: Word forms requested for word: 'тест'
+INFO  22 Mar 2020 21:59:04 ::1: Word forms requested for word: 'тест'
+INFO  22 Mar 2020 23:00:02 ::1: Word forms requested for word: 'and'
+INFO  22 Mar 2020 23:00:02 ::1: Word forms requested for word: 'friend'
+INFO  22 Mar 2020 23:05:25 ::1: Word forms requested for word: 'cow'
+INFO  23 Mar 2020 10:05:28 ::1: Word forms requested for word: 'корова'
+INFO  23 Mar 2020 10:08:18 ::1: Word forms requested for word: 'корова'
+INFO  23 Mar 2020 10:08:26 ::1: Word forms requested for word: 'корова'
+INFO  23 Mar 2020 10:08:26 ::1: Word forms requested for word: 'рыба'
+INFO  23 Mar 2020 10:08:26 ::1: Word forms requested for word: 'мыть'
+INFO  23 Mar 2020 10:08:26 ::1: Word forms requested for word: 'кошка'
+INFO  23 Mar 2020 10:59:28 ::1: Word forms requested for word: 'корова'
+INFO  23 Mar 2020 10:59:28 ::1: Word forms requested for word: 'big'
+INFO  23 Mar 2020 10:59:28 ::1: Word forms requested for word: 'рыба'
+INFO  23 Mar 2020 10:59:28 ::1: Word forms requested for word: 'кошка'
+INFO  23 Mar 2020 10:59:29 ::1: Word forms requested for word: 'мыть'
+INFO  23 Mar 2020 10:59:29 ::1: Word forms requested for word: 'корове'
+INFO  23 Mar 2020 10:59:29 ::1: Word forms requested for word: 'коровы'
+INFO  23 Mar 2020 10:59:29 ::1: Word forms requested for word: 'коров'
+INFO  23 Mar 2020 10:59:29 ::1: Word forms requested for word: 'коровам'
+INFO  23 Mar 2020 10:59:29 ::1: Word forms requested for word: 'коровами'
+INFO  23 Mar 2020 10:59:29 ::1: Word forms requested for word: 'коровах'
+INFO  23 Mar 2020 10:59:29 ::1: Word forms requested for word: 'коровою'
+INFO  23 Mar 2020 10:59:29 ::1: Word forms requested for word: 'корову'
+INFO  23 Mar 2020 10:59:29 ::1: Word forms requested for word: 'коровой'
+INFO  23 Mar 2020 10:59:29 ::1: Word forms requested for word: 'рыбы'
+INFO  23 Mar 2020 10:59:29 ::1: Word forms requested for word: 'рыбе'
+INFO  23 Mar 2020 10:59:29 ::1: Word forms requested for word: 'рыбу'
+INFO  23 Mar 2020 10:59:29 ::1: Word forms requested for word: 'рыбой'
+INFO  23 Mar 2020 10:59:29 ::1: Word forms requested for word: 'рыбою'
+INFO  23 Mar 2020 10:59:29 ::1: Word forms requested for word: 'рыб'
+INFO  23 Mar 2020 10:59:29 ::1: Word forms requested for word: 'рыбам'
+INFO  23 Mar 2020 10:59:29 ::1: Word forms requested for word: 'рыбами'
+INFO  23 Mar 2020 10:59:29 ::1: Word forms requested for word: 'рыбах'
+INFO  23 Mar 2020 10:59:29 ::1: Word forms requested for word: 'кошек'
+INFO  23 Mar 2020 10:59:29 ::1: Word forms requested for word: 'кошки'
+INFO  23 Mar 2020 10:59:29 ::1: Word forms requested for word: 'кошках'
+INFO  23 Mar 2020 10:59:29 ::1: Word forms requested for word: 'кошками'
+INFO  23 Mar 2020 10:59:29 ::1: Word forms requested for word: 'кошкам'
+INFO  23 Mar 2020 10:59:29 ::1: Word forms requested for word: 'кошку'
+INFO  23 Mar 2020 10:59:29 ::1: Word forms requested for word: 'кошке'
+INFO  23 Mar 2020 10:59:29 ::1: Word forms requested for word: 'кошкою'
+INFO  23 Mar 2020 10:59:29 ::1: Word forms requested for word: 'кошкой'
+INFO  23 Mar 2020 10:59:29 ::1: Word forms requested for word: 'мыл'
+INFO  23 Mar 2020 10:59:29 ::1: Word forms requested for word: 'мыла'
+INFO  23 Mar 2020 10:59:29 ::1: Word forms requested for word: 'мыло'
+INFO  23 Mar 2020 10:59:29 ::1: Word forms requested for word: 'мыли'
+INFO  23 Mar 2020 10:59:29 ::1: Word forms requested for word: 'моют'
+INFO  23 Mar 2020 10:59:29 ::1: Word forms requested for word: 'мою'
+INFO  23 Mar 2020 10:59:29 ::1: Word forms requested for word: 'моешь'
+INFO  23 Mar 2020 10:59:29 ::1: Word forms requested for word: 'моем'
+INFO  23 Mar 2020 10:59:29 ::1: Word forms requested for word: 'моете'
+INFO  23 Mar 2020 10:59:29 ::1: Word forms requested for word: 'мой'
+INFO  23 Mar 2020 10:59:29 ::1: Word forms requested for word: 'моет'
+INFO  23 Mar 2020 10:59:29 ::1: Word forms requested for word: 'мойте'
+INFO  23 Mar 2020 10:59:29 ::1: Word forms requested for word: 'мывший'
+INFO  23 Mar 2020 10:59:29 ::1: Word forms requested for word: 'мывшему'
+INFO  23 Mar 2020 10:59:29 ::1: Word forms requested for word: 'мывшие'
+INFO  23 Mar 2020 10:59:29 ::1: Word forms requested for word: 'мывших'
+INFO  23 Mar 2020 10:59:29 ::1: Word forms requested for word: 'мывшими'
+INFO  23 Mar 2020 10:59:29 ::1: Word forms requested for word: 'мытый'
+INFO  23 Mar 2020 10:59:29 ::1: Word forms requested for word: 'мытого'
+INFO  23 Mar 2020 10:59:29 ::1: Word forms requested for word: 'мытому'
+INFO  23 Mar 2020 10:59:29 ::1: Word forms requested for word: 'мытым'
+INFO  23 Mar 2020 10:59:29 ::1: Word forms requested for word: 'мытом'
+INFO  23 Mar 2020 10:59:29 ::1: Word forms requested for word: 'мытая'
+INFO  23 Mar 2020 10:59:29 ::1: Word forms requested for word: 'мытой'
+INFO  23 Mar 2020 10:59:29 ::1: Word forms requested for word: 'мытую'
+INFO  23 Mar 2020 10:59:29 ::1: Word forms requested for word: 'мывшим'
+INFO  23 Mar 2020 10:59:29 ::1: Word forms requested for word: 'мывшем'
+INFO  23 Mar 2020 10:59:29 ::1: Word forms requested for word: 'мывшего'
+INFO  23 Mar 2020 10:59:29 ::1: Word forms requested for word: 'мывшая'
+INFO  23 Mar 2020 10:59:29 ::1: Word forms requested for word: 'мывшую'
+INFO  23 Mar 2020 10:59:29 ::1: Word forms requested for word: 'мывшее'
+INFO  23 Mar 2020 10:59:29 ::1: Word forms requested for word: 'мывшей'
+INFO  23 Mar 2020 10:59:29 ::1: Word forms requested for word: 'мывшею'
+INFO  23 Mar 2020 10:59:29 ::1: Word forms requested for word: 'мытое'
+INFO  23 Mar 2020 10:59:29 ::1: Word forms requested for word: 'мытою'
+INFO  23 Mar 2020 10:59:29 ::1: Word forms requested for word: 'моя'
+INFO  23 Mar 2020 10:59:29 ::1: Word forms requested for word: 'моющий'
+INFO  23 Mar 2020 10:59:29 ::1: Word forms requested for word: 'моющим'
+INFO  23 Mar 2020 10:59:29 ::1: Word forms requested for word: 'моющем'
+INFO  23 Mar 2020 10:59:29 ::1: Word forms requested for word: 'моющая'
+INFO  23 Mar 2020 10:59:29 ::1: Word forms requested for word: 'моющей'
+INFO  23 Mar 2020 10:59:29 ::1: Word forms requested for word: 'моющею'
+INFO  23 Mar 2020 10:59:29 ::1: Word forms requested for word: 'моющую'
+INFO  23 Mar 2020 10:59:29 ::1: Word forms requested for word: 'моющее'
+INFO  23 Mar 2020 10:59:29 ::1: Word forms requested for word: 'моющего'
+INFO  23 Mar 2020 10:59:29 ::1: Word forms requested for word: 'моющему'
+INFO  23 Mar 2020 10:59:29 ::1: Word forms requested for word: 'мытых'
+INFO  23 Mar 2020 10:59:29 ::1: Word forms requested for word: 'мытые'
+INFO  23 Mar 2020 10:59:29 ::1: Word forms requested for word: 'мытыми'
+INFO  23 Mar 2020 10:59:29 ::1: Word forms requested for word: 'мыт'
+INFO  23 Mar 2020 10:59:29 ::1: Word forms requested for word: 'мыта'
+INFO  23 Mar 2020 10:59:29 ::1: Word forms requested for word: 'мыто'
+INFO  23 Mar 2020 10:59:29 ::1: Word forms requested for word: 'мыты'
+INFO  23 Mar 2020 10:59:29 ::1: Word forms requested for word: 'моющие'
+INFO  23 Mar 2020 10:59:29 ::1: Word forms requested for word: 'моемое'
+INFO  23 Mar 2020 10:59:29 ::1: Word forms requested for word: 'моемому'
+INFO  23 Mar 2020 10:59:29 ::1: Word forms requested for word: 'моемым'
+INFO  23 Mar 2020 10:59:29 ::1: Word forms requested for word: 'моемом'
+INFO  23 Mar 2020 10:59:29 ::1: Word forms requested for word: 'моемые'
+INFO  23 Mar 2020 10:59:29 ::1: Word forms requested for word: 'моемых'
+INFO  23 Mar 2020 10:59:29 ::1: Word forms requested for word: 'моемыми'
+INFO  23 Mar 2020 10:59:29 ::1: Word forms requested for word: 'моемо'
+INFO  23 Mar 2020 10:59:29 ::1: Word forms requested for word: 'моема'
+INFO  23 Mar 2020 10:59:29 ::1: Word forms requested for word: 'моемы'
+INFO  23 Mar 2020 10:59:29 ::1: Word forms requested for word: 'моемого'
+INFO  23 Mar 2020 10:59:29 ::1: Word forms requested for word: 'моемой'
+INFO  23 Mar 2020 10:59:29 ::1: Word forms requested for word: 'моющих'
+INFO  23 Mar 2020 10:59:29 ::1: Word forms requested for word: 'моющими'
+INFO  23 Mar 2020 10:59:29 ::1: Word forms requested for word: 'моемый'
+INFO  23 Mar 2020 10:59:29 ::1: Word forms requested for word: 'моемая'
+INFO  23 Mar 2020 10:59:29 ::1: Word forms requested for word: 'моемую'
+INFO  23 Mar 2020 10:59:29 ::1: Word forms requested for word: 'моемою'
+INFO  23 Mar 2020 10:59:31 ::1: Word forms requested for word: 'big'
+INFO  23 Mar 2020 10:59:31 ::1: Word forms requested for word: 'корова'
+INFO  23 Mar 2020 10:59:31 ::1: Word forms requested for word: 'рыба'
+INFO  23 Mar 2020 10:59:31 ::1: Word forms requested for word: 'кошка'
+INFO  23 Mar 2020 10:59:31 ::1: Word forms requested for word: 'мыть'
+INFO  23 Mar 2020 10:59:31 ::1: Word forms requested for word: 'корове'
+INFO  23 Mar 2020 10:59:31 ::1: Word forms requested for word: 'коровы'
+INFO  23 Mar 2020 10:59:31 ::1: Word forms requested for word: 'коровам'
+INFO  23 Mar 2020 10:59:31 ::1: Word forms requested for word: 'коров'
+INFO  23 Mar 2020 10:59:31 ::1: Word forms requested for word: 'коровами'
+INFO  23 Mar 2020 10:59:31 ::1: Word forms requested for word: 'коровах'
+INFO  23 Mar 2020 10:59:31 ::1: Word forms requested for word: 'коровою'
+INFO  23 Mar 2020 10:59:31 ::1: Word forms requested for word: 'коровой'
+INFO  23 Mar 2020 10:59:31 ::1: Word forms requested for word: 'корову'
+INFO  23 Mar 2020 10:59:31 ::1: Word forms requested for word: 'рыбы'
+INFO  23 Mar 2020 10:59:31 ::1: Word forms requested for word: 'рыбе'
+INFO  23 Mar 2020 10:59:31 ::1: Word forms requested for word: 'рыбу'
+INFO  23 Mar 2020 10:59:31 ::1: Word forms requested for word: 'рыбой'
+INFO  23 Mar 2020 10:59:31 ::1: Word forms requested for word: 'рыбою'
+INFO  23 Mar 2020 10:59:31 ::1: Word forms requested for word: 'рыб'
+INFO  23 Mar 2020 10:59:31 ::1: Word forms requested for word: 'рыбам'
+INFO  23 Mar 2020 10:59:31 ::1: Word forms requested for word: 'рыбами'
+INFO  23 Mar 2020 10:59:31 ::1: Word forms requested for word: 'рыбах'
+INFO  23 Mar 2020 10:59:31 ::1: Word forms requested for word: 'кошек'
+INFO  23 Mar 2020 10:59:31 ::1: Word forms requested for word: 'кошки'
+INFO  23 Mar 2020 10:59:31 ::1: Word forms requested for word: 'кошках'
+INFO  23 Mar 2020 10:59:31 ::1: Word forms requested for word: 'кошками'
+INFO  23 Mar 2020 10:59:31 ::1: Word forms requested for word: 'кошкам'
+INFO  23 Mar 2020 10:59:31 ::1: Word forms requested for word: 'кошке'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'кошку'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'кошкою'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'кошкой'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'мыл'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'мыла'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'мыло'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'мыли'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'моют'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'мою'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'моешь'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'моет'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'моем'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'моете'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'мой'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'мойте'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'мывший'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'мывшему'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'мывшие'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'мывших'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'мывшими'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'мытый'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'мытого'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'мытому'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'мытым'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'мытом'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'мытая'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'мытой'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'мытую'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'мывшим'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'мывшем'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'мывшего'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'мывшая'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'мывшей'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'мывшую'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'мывшее'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'мытою'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'мывшею'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'мытое'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'моя'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'моющий'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'моющим'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'моющем'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'моющая'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'моющей'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'моющую'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'моющею'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'моющее'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'моющего'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'моющему'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'мытые'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'мытых'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'мытыми'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'мыт'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'мыта'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'мыто'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'мыты'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'моющие'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'моемому'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'моемым'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'моемое'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'моемом'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'моемые'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'моемых'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'моемыми'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'моема'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'моемо'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'моемы'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'моемого'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'моемой'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'моющих'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'моющими'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'моемый'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'моемая'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'моемую'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'моемою'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'моим'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'моего'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'моей'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'моею'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'мое'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'моему'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'моих'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'мои'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'моими'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'мытах'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'мыту'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'мыте'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'мытов'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'мытами'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'мытам'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'big'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'корова'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'рыба'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'кошка'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'мыть'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'корове'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'коровы'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'коров'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'коровам'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'коровах'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'коровами'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'коровой'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'корову'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'коровою'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'рыбы'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'рыбу'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'рыбой'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'рыбам'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'рыбе'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'рыб'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'рыбою'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'рыбами'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'рыбах'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'кошек'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'кошки'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'кошках'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'кошками'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'кошке'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'кошкам'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'кошку'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'кошкою'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'кошкой'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'мыл'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'мыла'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'мыло'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'мыли'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'моют'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'мою'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'моешь'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'моет'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'моем'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'моете'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'мой'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'мойте'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'мывший'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'мывшему'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'мывшие'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'мывших'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'мывшими'
+INFO  23 Mar 2020 10:59:32 ::1: Word forms requested for word: 'мытый'
+INFO  23 Mar 2020 10:59:33 ::1: Word forms requested for word: 'мытого'
+INFO  23 Mar 2020 10:59:33 ::1: Word forms requested for word: 'мытому'
+INFO  23 Mar 2020 10:59:33 ::1: Word forms requested for word: 'мытым'
+INFO  23 Mar 2020 10:59:33 ::1: Word forms requested for word: 'мытом'
+INFO  23 Mar 2020 10:59:33 ::1: Word forms requested for word: 'мытая'
+INFO  23 Mar 2020 10:59:33 ::1: Word forms requested for word: 'мытой'
+INFO  23 Mar 2020 10:59:33 ::1: Word forms requested for word: 'мытую'
+INFO  23 Mar 2020 10:59:33 ::1: Word forms requested for word: 'мывшим'
+INFO  23 Mar 2020 10:59:33 ::1: Word forms requested for word: 'мывшего'
+INFO  23 Mar 2020 10:59:33 ::1: Word forms requested for word: 'мывшем'
+INFO  23 Mar 2020 10:59:33 ::1: Word forms requested for word: 'мывшая'
+INFO  23 Mar 2020 10:59:33 ::1: Word forms requested for word: 'мывшей'
+INFO  23 Mar 2020 10:59:33 ::1: Word forms requested for word: 'мывшую'
+INFO  23 Mar 2020 10:59:33 ::1: Word forms requested for word: 'мывшее'
+INFO  23 Mar 2020 10:59:33 ::1: Word forms requested for word: 'мывшею'
+INFO  23 Mar 2020 10:59:33 ::1: Word forms requested for word: 'мытою'
+INFO  23 Mar 2020 10:59:33 ::1: Word forms requested for word: 'мытое'
+INFO  23 Mar 2020 10:59:33 ::1: Word forms requested for word: 'моя'
+INFO  23 Mar 2020 10:59:33 ::1: Word forms requested for word: 'моющий'
+INFO  23 Mar 2020 10:59:33 ::1: Word forms requested for word: 'моющим'
+INFO  23 Mar 2020 10:59:33 ::1: Word forms requested for word: 'моющая'
+INFO  23 Mar 2020 10:59:33 ::1: Word forms requested for word: 'моющем'
+INFO  23 Mar 2020 10:59:33 ::1: Word forms requested for word: 'моющей'
+INFO  23 Mar 2020 10:59:33 ::1: Word forms requested for word: 'моющую'
+INFO  23 Mar 2020 10:59:33 ::1: Word forms requested for word: 'моющею'
+INFO  23 Mar 2020 10:59:33 ::1: Word forms requested for word: 'моющее'
+INFO  23 Mar 2020 10:59:33 ::1: Word forms requested for word: 'моющего'
+INFO  23 Mar 2020 10:59:33 ::1: Word forms requested for word: 'моющему'
+INFO  23 Mar 2020 10:59:33 ::1: Word forms requested for word: 'мытых'
+INFO  23 Mar 2020 10:59:33 ::1: Word forms requested for word: 'мытые'
+INFO  23 Mar 2020 10:59:33 ::1: Word forms requested for word: 'мытыми'
+INFO  23 Mar 2020 10:59:33 ::1: Word forms requested for word: 'мыт'
+INFO  23 Mar 2020 10:59:33 ::1: Word forms requested for word: 'мыта'
+INFO  23 Mar 2020 10:59:33 ::1: Word forms requested for word: 'мыто'
+INFO  23 Mar 2020 10:59:33 ::1: Word forms requested for word: 'мыты'
+INFO  23 Mar 2020 10:59:33 ::1: Word forms requested for word: 'моемому'
+INFO  23 Mar 2020 10:59:33 ::1: Word forms requested for word: 'моющие'
+INFO  23 Mar 2020 10:59:33 ::1: Word forms requested for word: 'моемым'
+INFO  23 Mar 2020 10:59:33 ::1: Word forms requested for word: 'моемое'
+INFO  23 Mar 2020 10:59:33 ::1: Word forms requested for word: 'моемом'
+INFO  23 Mar 2020 10:59:33 ::1: Word forms requested for word: 'моемые'
+INFO  23 Mar 2020 10:59:33 ::1: Word forms requested for word: 'моемыми'
+INFO  23 Mar 2020 10:59:33 ::1: Word forms requested for word: 'моемых'
+INFO  23 Mar 2020 10:59:33 ::1: Word forms requested for word: 'моема'
+INFO  23 Mar 2020 10:59:33 ::1: Word forms requested for word: 'моемы'
+INFO  23 Mar 2020 10:59:33 ::1: Word forms requested for word: 'моемо'
+INFO  23 Mar 2020 10:59:33 ::1: Word forms requested for word: 'моемого'
+INFO  23 Mar 2020 10:59:33 ::1: Word forms requested for word: 'моемой'
+INFO  23 Mar 2020 10:59:33 ::1: Word forms requested for word: 'моющих'
+INFO  23 Mar 2020 10:59:33 ::1: Word forms requested for word: 'моющими'
+INFO  23 Mar 2020 10:59:33 ::1: Word forms requested for word: 'моемый'
+INFO  23 Mar 2020 10:59:33 ::1: Word forms requested for word: 'моемую'
+INFO  23 Mar 2020 10:59:33 ::1: Word forms requested for word: 'моемая'
+INFO  23 Mar 2020 10:59:33 ::1: Word forms requested for word: 'моемою'
+INFO  23 Mar 2020 10:59:33 ::1: Word forms requested for word: 'моим'
+INFO  23 Mar 2020 10:59:33 ::1: Word forms requested for word: 'моего'
+INFO  23 Mar 2020 10:59:33 ::1: Word forms requested for word: 'моею'
+INFO  23 Mar 2020 10:59:33 ::1: Word forms requested for word: 'мое'
+INFO  23 Mar 2020 10:59:33 ::1: Word forms requested for word: 'моей'
+INFO  23 Mar 2020 10:59:33 ::1: Word forms requested for word: 'моему'
+INFO  23 Mar 2020 10:59:33 ::1: Word forms requested for word: 'моих'
+INFO  23 Mar 2020 10:59:33 ::1: Word forms requested for word: 'мои'
+INFO  23 Mar 2020 10:59:33 ::1: Word forms requested for word: 'моими'
+INFO  23 Mar 2020 10:59:33 ::1: Word forms requested for word: 'мытах'
+INFO  23 Mar 2020 10:59:33 ::1: Word forms requested for word: 'мыту'
+INFO  23 Mar 2020 10:59:33 ::1: Word forms requested for word: 'мыте'
+INFO  23 Mar 2020 10:59:33 ::1: Word forms requested for word: 'мытов'
+INFO  23 Mar 2020 10:59:33 ::1: Word forms requested for word: 'мытами'
+INFO  23 Mar 2020 10:59:33 ::1: Word forms requested for word: 'мытам'

@@ -1,0 +1,10 @@
+:host{
+    box-sizing: border-box;
+    display: block;
+    /* height: 100%; */
+}
+
+.the-gap {
+    height: 50px;
+}
+

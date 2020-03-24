@@ -1,0 +1,30 @@
+.texts-ops-block {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: flex-end;
+}
+    .texts-ops-block button {
+        margin: 10pt 5pt;
+    }
+
+.text-card {
+    max-width: 23vw;
+    min-width: 20vw;
+    margin: 10pt;
+    transition: all 0.3s ease-out;
+}
+
+.text-card:hover {
+    box-shadow: 0 2px 7px rgba(0,0,0,0.3);
+     -webkit-transform: scale(1.10, 1.10); 
+    transform: scale(1.05, 1.05);
+    -webkit-transition: transform 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out;
+}
+
+.textsCountContainer {
+    margin-right: auto;
+    margin-top: auto;
+    padding-left: 2vw;
+}

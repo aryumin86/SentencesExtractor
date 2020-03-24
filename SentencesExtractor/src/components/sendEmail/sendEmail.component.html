@@ -1,0 +1,46 @@
+<h2 mat-dialog-title>Предложения, пожелания и пр.</h2>
+
+<form [formGroup]="form" novalidate (ngSubmit)="send()">
+<mat-dialog-content>
+    <p>
+      <mat-form-field appearance="standard">
+        <mat-label>Как вас зовут</mat-label>
+        <input matInput placeholder="Имя" formControlName="name">
+        <mat-icon [inline]="true" color="black" matSuffix>face</mat-icon>
+        <mat-error *ngIf="form.controls['name'].invalid && 
+          (form.controls['name'].dirty || form.controls['name'].touched)">
+          Имя <strong>нужно ввести</strong>
+        </mat-error>
+      </mat-form-field>
+    </p>
+    <p>
+      <mat-form-field appearance="standard">
+        <mat-label>Почта</mat-label>
+        <input matInput placeholder="Email"
+        formControlName="email" [errorStateMatcher]="matcher">
+        <mat-icon matSuffix [inline]="true" color="black">mail</mat-icon>
+        <mat-error *ngIf="form.controls['email'].invalid 
+          && (form.controls['email'].dirty || form.controls['email'].touched)">
+          Пожалуйста, введите корректный адрес почты
+        </mat-error>
+      </mat-form-field>
+    </p>
+    <p>
+      <mat-form-field appearance="standard">
+        <mat-label>Ваш комментарий</mat-label>
+        <textarea matInput placeholder="Предложения... Пожелания..."
+        formControlName="comment" [errorStateMatcher]="matcher"></textarea>
+        <mat-icon matSuffix [inline]="true" color="black">comment</mat-icon>
+        <mat-error *ngIf="form.controls['comment'].invalid && 
+          (form.controls['comment'].dirty || form.controls['comment'].touched)">
+          Комментарий <strong>нужно ввести</strong>
+        </mat-error>
+      </mat-form-field>
+    </p>
+</mat-dialog-content>
+<mat-dialog-actions>
+  <button mat-stroked-button (click)="close()">Закрыть</button>
+  <button mat-stroked-button color='blue' [disabled]="form.invalid">Отправить</button>
+</mat-dialog-actions>
+</form>
+

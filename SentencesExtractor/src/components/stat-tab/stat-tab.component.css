@@ -1,0 +1,31 @@
+.statTabMainContainer {
+    margin: 1vw;
+}
+
+.settingsAndButtons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 5fr;
+    /* margin: 2em 1em; */
+    /* grid-template-rows: 1fr 1fr; */
+    grid-template-areas:
+        'a a a a a'
+        'a a a a a';
+    justify-content: start;
+    grid-column-gap: .5vw;
+    /* grid-row-gap: .1vw; */
+    grid-auto-rows: min-content;
+}
+
+.freqExportButton, .matrixExport {
+    justify-self: end !important;
+}
+
+.settingsElem {
+    /* margin: 0 .5vw; */
+    /* display: flex; */
+    /* justify-self: stretch; */
+}
+
+.statsContainer {
+    
+}

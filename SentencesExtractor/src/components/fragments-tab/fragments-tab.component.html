@@ -1,0 +1,71 @@
+<div class="mainFragsTabContainer">
+  <div class='controlsContainer'>
+    <mat-form-field style="width: 70%;">
+      <!--
+        <mat-label>Длина фрагмента</mat-label>
+      <mat-select [(value)]='selectedFragmentLength'>
+        <mat-option value='1'>Предложение</mat-option>
+        <mat-option value='2'>Предложение + 1 предложение до и после</mat-option>
+        <mat-option value='3'>Абзац</mat-option>
+      </mat-select>
+      -->
+      <mat-label>Максимум фрагментов на странице</mat-label>
+      <mat-select [(value)]='maxFragmentsToShow' (selectionChange)='maxFragmentsToShowChanged($event)'>
+        <mat-option value='10'>10</mat-option>
+        <mat-option value='100'>100</mat-option>
+        <mat-option value='500'>500</mat-option>
+        <mat-option value='1000'>1000</mat-option>
+        <mat-option value='5000'>5000</mat-option>
+        <mat-option value='1000000'>Все</mat-option>
+      </mat-select>
+      
+    </mat-form-field>
+    <mat-form-field class="words">
+      <textarea [(ngModel)]='wordsInput' rows="5" style="resize: none;" matInput placeholder="Слова для поиска в текстах"></textarea>
+    </mat-form-field>
+    <mat-form-field style="width: 70%;">
+      <mat-label>Язык</mat-label>
+      <mat-select [(value)]='selectedLanguage'>
+        <mat-option value='1'>Русский</mat-option>
+        <mat-option value='2' disabled>Английский</mat-option>
+        <mat-option value='3' disabled>Немецкий</mat-option>
+      </mat-select>
+    </mat-form-field>
+    <div>
+      <h3>Найдено фрагментов: {{fragments.length}}</h3>
+    </div>
+    <div>
+      <button mat-stroked-button (click)='findFragments()' [disabled]='texts.length == 0 || wordsInput.length == 0'>Найти фрагменты</button>
+      <button mat-stroked-button (click)='clearFragments()' [disabled]='fragments.length == 0'>Очистить фрагменты</button>
+      <button mat-stroked-button [disabled]='fragments.length == 0' (click)='exportFragments()'>Экспорт</button>
+      <button mat-stroked-button (click)='setWordForms()' [disabled]='wordsInput.length == 0'>Морфология</button>
+      <button mat-stroked-button (click)='clearWordsInput()' [disabled]='wordsInput.length == 0'>Очистить слова</button>
+    </div>
+  </div>
+  <mat-divider></mat-divider>
+  <div class="spinnerContainer">
+    <mat-progress-spinner *ngIf="loadingMode" style="margin: 0 50%" 
+    [color]="spinnerColor"
+    [mode]="spinnerMode"
+    [value]="spinnerValue">
+  </mat-progress-spinner>
+  </div>
+  
+  <div fxLayout="row wrap" class="fragmentsContainer">
+    <div *ngFor="let fra of fragments; let i = index;">
+      <mat-card class="fragment-card" *ngIf="fra.id <= maxFragmentsToShowAsInt">
+        <mat-card-header>
+          <mat-card-title>id: #{{fra.id}}, textId: #{{fra.textId}}</mat-card-title>
+          <mat-card-subtitle>Длина: {{fra.content.length}}</mat-card-subtitle>
+        </mat-card-header>
+        <mat-card-content>
+          <p>{{fra.content}}</p>
+        </mat-card-content>
+        <mat-card-actions>
+          <button mat-stroked-button (click)='deleteFragment(fra.id)'>Грохнуть</button>
+        </mat-card-actions>
+    </mat-card>
+    </div>
+  </div>
+</div>
+

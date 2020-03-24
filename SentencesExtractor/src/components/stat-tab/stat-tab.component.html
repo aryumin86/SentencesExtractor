@@ -1,0 +1,56 @@
+<div class="statTabMainContainer">
+  <div class="settingsAndButtons">
+    <div class="settingsElem">
+      <mat-form-field>
+        <mat-label>Минимальная частота</mat-label>
+        <input matInput placeholder="Введите ее!" value="10">
+      </mat-form-field>
+    </div>
+    <div class="settingsElem">
+      <mat-form-field>
+        <mat-label>Максимум элементов на странице</mat-label>
+        <mat-select [(value)]='maxElemsToShowSelect' (selectionChange)='maxElemsToShowChanged($event)'>
+          <mat-option value='10'>10</mat-option>
+          <mat-option value='100'>100</mat-option>
+          <mat-option value='500'>500</mat-option>
+          <mat-option value='1000'>1000</mat-option>
+          <mat-option value='5000'>5000</mat-option>
+          <mat-option value='1000000'>Все</mat-option>
+        </mat-select>
+      </mat-form-field>
+    </div>
+    <div class="settingsElem">
+      <button mat-stroked-button>Показать частоты слов</button>
+    </div>
+    <div class="settingsElem">
+      <input type='checkbox' value="0" checked='checked' name="clearStopWordsChB">
+      <label for="clearStopWordsChB">Убрать стоп слова</label>
+    </div>
+    <div class="settingsElem matrixExport">
+      <button mat-stroked-button>Экспорт term-text матрицы</button>
+    </div>
+    <div class="settingsElem">
+      <mat-form-field class="biGrammsBaseInput">
+        <textarea [(ngModel)]='biGrammsBaseInput' rows="1" style="resize: none;" matInput placeholder="Основы биграмм"></textarea>
+      </mat-form-field>
+    </div>
+    <div class="settingsElem">
+      <button mat-stroked-button>Морфология для биграмм</button>
+    </div>
+    <div class="settingsElem">
+      <button mat-stroked-button>Показать частоты биграмм</button>
+    </div>
+    <div class="settingsElem">
+      <input type='checkbox' value="0" name="checkAllElemsChB">
+      <label for="checkAllElemsChB">Выбрать все</label>
+    </div>
+    <div class="settingsElem freqExportButton">
+      <button mat-stroked-button>Экспорт частот</button>
+    </div>
+  </div>
+  <mat-divider></mat-divider>
+  <div class="statsContainer">
+    Тут будет статистика всякая...
+  </div>
+</div>
+

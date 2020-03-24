@@ -1,0 +1,22 @@
+.email-button-container {
+    display: flex;
+    height: 75vh;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.icon {
+    font-size: 60px;
+    background-color: white;
+    border: none;
+    transition: all 0.3s ease-out;
+}
+
+.mat-icon:hover {
+    color: #3f51b5;
+    cursor: pointer;
+    -webkit-transform: scale(1.10, 1.10); 
+    transform: scale(1.2, 1.2);
+    -webkit-transition: transform 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out;
+}

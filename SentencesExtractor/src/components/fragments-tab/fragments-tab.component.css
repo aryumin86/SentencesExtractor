@@ -1,0 +1,58 @@
+.mainFragsTabContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.controlsContainer {
+    display: grid;
+    grid-template-columns: 1fr 2fr; 
+    margin: 2em 1em;
+    /* grid-template-rows: 1fr 1fr; */
+    grid-template-areas:
+        '. words'
+        '. words';
+}
+
+.words {
+    grid-area: words;
+}
+
+.fragmentsContainer{
+
+}
+
+.opButtons {
+
+}
+
+button {
+    margin: .2em;
+}
+
+.fragmentsContainer {
+    margin-top: 1.5em;
+}
+
+.fragment-card {
+    max-width: 23vw;
+    min-width: 23vw;
+    margin: 10pt;
+    transition: all 0.3s ease-out;
+}
+
+.fragment-card:hover {
+    box-shadow: 0 2px 7px rgba(0,0,0,0.3);
+     -webkit-transform: scale(1.10, 1.10); 
+    transform: scale(1.05, 1.05);
+    -webkit-transition: transform 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out;
+}
+
+.spinnerContainer {
+    align-items: center; 
+    margin-top: 5vw;
+}
+
+.textsCountContainer {
+    
+}
