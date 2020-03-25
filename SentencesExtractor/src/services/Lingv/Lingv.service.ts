@@ -10,6 +10,7 @@ export class LingvService {
   api = environment.lingvApiUrl;
   stopWordsStr: string;
   stopWords: Set<string>;
+  wordsTrimmers: RegExp;
 
 constructor(private http: HttpClient) { 
   this.stopWordsStr = `a,about,all,am,a,,a,d,a,y,are,as,at,be,bee,,but,by,ca,,could,do,for,from,has,have,i,if,i,,is,it,me,my,,o,,ot,of,o,,o,e,or,so,that,the,them,there,they,this,to,was,we,what,which,will,with,wou
@@ -28,6 +29,8 @@ constructor(private http: HttpClient) {
         this.stopWords.add(w.toLowerCase().trim());
       }
     });
+
+    this.wordsTrimmers = /^[\/\\@#%^&*()\-_=+\[\]{}~±§<>]*(?<word>[a-zA-Zа-яА-Я0-9\-]+)[\/\\@#%^&*()\-_=+\[\]{}~±§<>]*$/;
 }
 
   getWordForm(word: string) {
@@ -36,6 +39,19 @@ constructor(private http: HttpClient) {
 
   getRusStopWords(): Set<string> {
     return this.stopWords;
+  }
+
+  trimWord(wordRaw: string): string {
+    const regexWordGroupName = 'word';
+    let res = '';
+    try {
+      const matchArray = wordRaw.match(this.wordsTrimmers);
+        res = matchArray.groups[regexWordGroupName];
+    } catch (err) {
+      // console.error(wordRaw);
+      // console.error(err);
+    }
+    return res;
   }
 
 }
