@@ -23,7 +23,6 @@ export class FragmentsTabComponent implements OnInit {
   selectedFragmentLength: string;
   texts: Array<RawText>;
   sentencesSplittersRegex: RegExp;
-  wordsTrimmers: RegExp;
   toWordsSlitterRegex: RegExp;
   maxFragmentsToShow: string;
   maxFragmentsToShowAsInt: number;
@@ -43,7 +42,6 @@ export class FragmentsTabComponent implements OnInit {
     this.maxFragmentsToShowAsInt = 500;
     this.sentencesSplittersRegex = new RegExp('[.!?]');
     this.toWordsSlitterRegex = /[\s\r\n\t,:;\"'“№%*\()\[\]\/\\”$@^&{}<>~`_]/;
-    this.wordsTrimmers = /^[\/\\@#%^&*()\-_=+\[\]{}~±§<>]*(?<word>[a-zA-Zа-яА-Я0-9\-]+)[\/\\@#%^&*()\-_=+\[\]{}~±§<>]*$/;
     this.loadingMode = false;
     this.spinnerColor = 'primary'
     this.spinnerMode = 'indeterminate';
@@ -114,7 +112,7 @@ export class FragmentsTabComponent implements OnInit {
         let fragWords: Array<string> = f.split(this.toWordsSlitterRegex).filter(x => x.length > 0);
         fragWords = fragWords
           .filter(w => w !== undefined && w.length > 0)
-          .map(w => this.trimWord(w));
+          .map(w => this.lingvService.trimWord(w));
         let match = false;
         for (let i = 0; i < fragWords.length; i++) {
           if (wordsSet.has(fragWords[i].toLowerCase())) {
@@ -132,10 +130,12 @@ export class FragmentsTabComponent implements OnInit {
         }
       });
       console.log('looking for fragments is done');
+      this.dataService.updateAllFragmentsArray(this.fragments);
       // this.loadingMode = false;
     });
   }
 
+  /*
   trimWord(wordRaw: string): string {
     const regexWordGroupName = 'word';
     let res = '';
@@ -148,6 +148,7 @@ export class FragmentsTabComponent implements OnInit {
     }
     return res;
   }
+  */
 
   tokenizeTextToFragments(te: string): Array<string> {
     return te.split(this.sentencesSplittersRegex);

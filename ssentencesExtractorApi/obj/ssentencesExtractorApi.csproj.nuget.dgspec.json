@@ -1,30 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "L:\\projects\\LearnSmth\\Angu\\SentencesExtractor\\ssentencesExtractorApi\\ssentencesExtractorApi.csproj": {}
+    "/Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi/ssentencesExtractorApi.csproj": {}
   },
   "projects": {
-    "L:\\projects\\LearnSmth\\Angu\\SentencesExtractor\\ssentencesExtractorApi\\ssentencesExtractorApi.csproj": {
+    "/Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi/ssentencesExtractorApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "L:\\projects\\LearnSmth\\Angu\\SentencesExtractor\\ssentencesExtractorApi\\ssentencesExtractorApi.csproj",
+        "projectUniqueName": "/Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi/ssentencesExtractorApi.csproj",
         "projectName": "ssentencesExtractorApi",
-        "projectPath": "L:\\projects\\LearnSmth\\Angu\\SentencesExtractor\\ssentencesExtractorApi\\ssentencesExtractorApi.csproj",
-        "packagesPath": "C:\\Users\\aryumin\\.nuget\\packages\\",
-        "outputPath": "L:\\projects\\LearnSmth\\Angu\\SentencesExtractor\\ssentencesExtractorApi\\obj\\",
+        "projectPath": "/Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi/ssentencesExtractorApi.csproj",
+        "packagesPath": "/Users/aryumin/.nuget/packages/",
+        "outputPath": "/Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\aryumin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/aryumin/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -80,7 +78,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.102/RuntimeIdentifierGraph.json"
         }
       }
     }
