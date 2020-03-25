@@ -1862,7 +1862,6 @@ INFO  24 Mar 2020 16:15:59 ::1: Word forms requested for word: 'коровой'
 INFO  24 Mar 2020 16:15:59 ::1: Word forms requested for word: 'корову'
 INFO  24 Mar 2020 16:16:47 ::1: Word forms requested for word: 'корова'
 INFO  24 Mar 2020 16:19:00 ::1: Word forms requested for word: 'корова'
-<<<<<<< HEAD
 INFO  24 Mar 2020 17:11:53 ::1: Word forms requested for word: 'крот'
 INFO  24 Mar 2020 17:12:55 ::1: Word forms requested for word: 'жопа'
 INFO  24 Mar 2020 17:13:07 ::1: Word forms requested for word: 'фашист'
@@ -1888,44 +1887,3 @@ INFO  24 Mar 2020 17:14:40 ::1: Word forms requested for word: 'жопам'
 INFO  24 Mar 2020 17:14:40 ::1: Word forms requested for word: 'жопами'
 INFO  24 Mar 2020 17:14:40 ::1: Word forms requested for word: 'жопах'
 INFO  24 Mar 2020 17:14:44 ::1: Word forms requested for word: 'писька'
-=======
-INFO  24 Mar 2020 17:36:16 Now listening on: http://localhost:44381
-INFO  24 Mar 2020 17:36:16 Application started. Press Ctrl+C to shut down.
-INFO  24 Mar 2020 17:36:16 Hosting environment: Development
-INFO  24 Mar 2020 17:36:16 Content root path: /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi
-WARN  24 Mar 2020 18:07:33 Failed to determine the https port for redirect.
-INFO  24 Mar 2020 18:07:33 ::1: Word forms requested for word: 'корова'
-INFO  24 Mar 2020 18:07:38 ::1: Word forms requested for word: 'корове'
-INFO  24 Mar 2020 18:07:38 ::1: Word forms requested for word: 'корова'
-INFO  24 Mar 2020 18:07:38 ::1: Word forms requested for word: 'коровы'
-INFO  24 Mar 2020 18:07:38 ::1: Word forms requested for word: 'коров'
-INFO  24 Mar 2020 18:07:38 ::1: Word forms requested for word: 'коровам'
-INFO  24 Mar 2020 18:07:38 ::1: Word forms requested for word: 'коровами'
-INFO  24 Mar 2020 18:07:38 ::1: Word forms requested for word: 'коровах'
-INFO  24 Mar 2020 18:07:38 ::1: Word forms requested for word: 'коровою'
-INFO  24 Mar 2020 18:07:38 ::1: Word forms requested for word: 'коровой'
-INFO  24 Mar 2020 18:07:38 ::1: Word forms requested for word: 'корову'
-INFO  24 Mar 2020 18:07:38 ::1: Word forms requested for word: 'гитлер'
-INFO  24 Mar 2020 18:07:43 ::1: Word forms requested for word: 'корова'
-INFO  24 Mar 2020 18:07:43 ::1: Word forms requested for word: 'корове'
-INFO  24 Mar 2020 18:07:43 ::1: Word forms requested for word: 'коровами'
-INFO  24 Mar 2020 18:07:43 ::1: Word forms requested for word: 'коровам'
-INFO  24 Mar 2020 18:07:43 ::1: Word forms requested for word: 'коров'
-INFO  24 Mar 2020 18:07:43 ::1: Word forms requested for word: 'коровы'
-INFO  24 Mar 2020 18:07:43 ::1: Word forms requested for word: 'коровах'
-INFO  24 Mar 2020 18:07:43 ::1: Word forms requested for word: 'коровою'
-INFO  24 Mar 2020 18:07:43 ::1: Word forms requested for word: 'коровой'
-INFO  24 Mar 2020 18:07:43 ::1: Word forms requested for word: 'корову'
-INFO  24 Mar 2020 18:07:43 ::1: Word forms requested for word: 'гитлер'
-INFO  24 Mar 2020 18:07:43 ::1: Word forms requested for word: 'птичка'
-INFO  24 Mar 2020 18:27:14 Application is shutting down...
-INFO  24 Mar 2020 18:44:58 Now listening on: http://localhost:44381
-INFO  24 Mar 2020 18:44:58 Application started. Press Ctrl+C to shut down.
-INFO  24 Mar 2020 18:44:58 Hosting environment: Development
-INFO  24 Mar 2020 18:44:58 Content root path: /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi
-WARN  24 Mar 2020 21:38:06 Failed to determine the https port for redirect.
-INFO  24 Mar 2020 21:38:07 ::1: Word forms requested for word: 'friend'
-INFO  24 Mar 2020 21:39:02 ::1: Word forms requested for word: 'friend'
-INFO  24 Mar 2020 21:43:22 ::1: Word forms requested for word: 'men'
-INFO  25 Mar 2020 10:07:26 Application is shutting down...
->>>>>>> 9744c74aecd9582549011d385464c177f859a7b1
