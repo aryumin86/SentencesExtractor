@@ -3,7 +3,7 @@
     <div class="settingsElem minFreq">
       <mat-form-field>
         <mat-label>Минимальная частота</mat-label>
-        <input matInput placeholder="Введите ее!" [(value)]='minFreq'>
+        <input type='number' matInput placeholder="Введите ее!" [(ngModel)]='minFreq'>
       </mat-form-field>
     </div>
     <div class="settingsElem maxElemsOnPage">
@@ -21,11 +21,15 @@
     </div>
     <div class="settingsElem showWordsFreq">
       <button mat-stroked-button [disabled]='fragments.length === 0' 
-        (click)='calculateWordsFreqs()'>Показать частоты слов</button>
+        (click)='calculateWordsFreqs()'>Частоты слов</button>
     </div>
     <div class="settingsElem removeStopWords">
-      <input type='checkbox' value="0" checked='checked' name="clearStopWordsChB">
+      <!--
+      <input type='checkbox' [checked]='removeStopWords' (change)='removeStopWords = !removeStopWords' name="clearStopWordsChB">
       <label for="clearStopWordsChB">Убрать стоп слова</label>
+      -->
+      
+      <mat-checkbox [(ngModel)]='removeStopWords' (change)='removeStopWords = !removeStopWords'>Убрать стоп слова</mat-checkbox>
     </div>
     <div class="settingsElem matrixExport">
       <button mat-stroked-button [disabled]='fragments.length === 0 || wordsFreqs.length === 0'>Экспорт term-text матрицы</button>
@@ -41,12 +45,28 @@
     </div>
     <div class="settingsElem showBiGrammFreq">
       <button mat-stroked-button [disabled]='fragments.length === 0 || words.length === 0' 
-      (click)='calculateBiGrammsFreqs()'>Показать частоты биграмм</button>
+      (click)='calculateBiGrammsFreqs()'>Частоты биграмм</button>
     </div>
     <div class="settingsElem freqExportButton">
-      <input type='checkbox' value="0" name="checkAllElemsChB">
+      <!--
+      <input type='checkbox' [checked]='selectAll' name="checkAllElemsChB" (change)='selectAllChBChanged(selectAll)'>
       <label for="checkAllElemsChB">Выбрать все</label>
+      -->
+
+      <mat-checkbox [(ngModel)]='selectAll' (change)='selectAllChBChanged(selectAll)'  style="margin-right: 1vw;">Выбрать все</mat-checkbox>
       <button mat-stroked-button [disabled]='wordsFreqs.length === 0'>Экспорт частот</button>
+    </div>
+    <div class="settingsElem sortBySelect">
+      <mat-form-field>
+        <mat-label>Сортировка</mat-label>
+        <mat-select [(value)]='sortBy' (selectionChange)='sorByChanged($event)'>
+          <mat-option value='freq'>По частоте</mat-option>
+          <mat-option value='alph'>По алфавиту</mat-option>          
+        </mat-select>
+      </mat-form-field>
+    </div>
+    <div class="settingsElem clearButton">
+      <button mat-stroked-button [disabled]='fragments.length === 0'>Очистить</button>
     </div>
   </div>
   <mat-divider></mat-divider>
@@ -58,17 +78,25 @@
         </mat-card-header>
         <mat-card-content>
           <div>
-            <input type='checkbox' value="0" checked='checked' name="useWordFormForMatrixChB">
+            <mat-checkbox [(ngModel)]='woFreq.useForMatrix'>Использовать</mat-checkbox>
+            <!--
+              <input type='checkbox' [checked]='woFreq.useForMatrix' name="useWordFormForMatrixChB">
             <label for="useWordFormForMatrixChB">Использовать</label>
+            -->
+            
           </div>
           <div>
-            <input type='checkbox' value="0" checked='checked' name="wordFormsChB">
+            <mat-checkbox [(ngModel)]='woFreq.needWordForms' [disabled]='biGrammsMode'>Словоформы</mat-checkbox>
+            <!--
+              <input type='checkbox' [checked]='woFreq.needWordForms' name="wordFormsChB" [disabled]='biGrammsMode'>
             <label for="wordFormsChB">Словоформы</label>
+            -->
+            
           </div>
         </mat-card-content>
           <mat-card-actions>
           <button mat-stroked-button (click)='deleteWordFreq(woFreq.id)'>Грохнуть</button>
-          <button mat-stroked-button>Формы</button>
+          <button mat-stroked-button [disabled]='biGrammsMode' (click)='openWordFormsDialog(woFreq)'>Формы</button>
         </mat-card-actions>
     </mat-card>
     </div>

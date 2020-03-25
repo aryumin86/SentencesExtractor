@@ -3,4 +3,5 @@ export class WordForm {
     mainFormId: number;
     isMainForm: number;
     raw: string;
+    checked: boolean;
 }

@@ -1,0 +1,4 @@
+.wordsFormsBlock {
+    display: flex;
+    flex-direction: column;
+}

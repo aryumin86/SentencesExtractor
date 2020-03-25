@@ -4,11 +4,11 @@
 
 .settingsAndButtons {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 2fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 2fr;
     grid-template-rows: max-content;
     grid-template-areas:
-        'biGrammsWords maxElemsOnPage showWordsFreq minFreq . matrixExport'
-        'biGrammsWords morfologyButton showBiGrammFreq removeStopWords selectAllWords freqExportButton';
+        'biGrammsWords maxElemsOnPage showWordsFreq minFreq sortBySelect . matrixExport'
+        'biGrammsWords morfologyButton showBiGrammFreq removeStopWords clearButton selectAllWords freqExportButton';
     justify-content: start;
     grid-column-gap: .5vw;
 }
@@ -53,6 +53,14 @@
     grid-area: selectAllWords;
 }
 
+.sortBySelect {
+    grid-area: sortBySelect;
+}
+
+.clearButton {
+    grid-area: clearButton;
+}
+
 
 .freqExportButton, .matrixExport, .selectAllWords  {
     justify-self: end !important;
@@ -62,7 +70,7 @@
     display: inline-block;
 }
 .settingsElem >  label {
-    margin-right: 1vw;
+    margin-right: 0.5vw;
 }
 
 .statsContainer {

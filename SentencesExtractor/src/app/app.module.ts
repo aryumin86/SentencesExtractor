@@ -39,6 +39,8 @@ import { FullTextModalComponent } from 'src/components/FullTextModal/FullTextMod
 import { SendEmailComponent } from 'src/components/sendEmail/sendEmail.component';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { TermTextTabComponent } from 'src/components/term-text-tab/term-text-tab.component';
+import { WordFormsModalComponent } from 'src/components/word-forms-modal/word-forms-modal.component';
+import {MatCheckboxModule} from '@angular/material/checkbox';
 
 const appRoutes: Routes = [
   { path: 'sentencesapp', component: SentencesAppComponent },
@@ -62,6 +64,7 @@ const appRoutes: Routes = [
     FullTextModalComponent,
     SendEmailComponent,
     TermTextTabComponent,
+    WordFormsModalComponent,
   ],
   imports: [
     RouterModule,
@@ -93,7 +96,8 @@ const appRoutes: Routes = [
     MatFormFieldModule,
     HttpClientModule,
     MatProgressSpinnerModule,
-    FileSaverModule
+    FileSaverModule,
+    MatCheckboxModule
   ],
   providers: [HttpClient],
   bootstrap: [AppComponent]
