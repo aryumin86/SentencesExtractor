@@ -23,16 +23,11 @@
       <button mat-stroked-button [disabled]='fragments.length === 0' 
         (click)='calculateWordsFreqs()'>Частоты слов</button>
     </div>
-    <div class="settingsElem removeStopWords">
-      <!--
-      <input type='checkbox' [checked]='removeStopWords' (change)='removeStopWords = !removeStopWords' name="clearStopWordsChB">
-      <label for="clearStopWordsChB">Убрать стоп слова</label>
-      -->
-      
-      <mat-checkbox [(ngModel)]='removeStopWords' (change)='removeStopWords = !removeStopWords'>Убрать стоп слова</mat-checkbox>
+    <div class="settingsElem removeStopWords">      
+      <mat-checkbox [(ngModel)]='removeStopWords'>Убрать стоп слова</mat-checkbox>
     </div>
     <div class="settingsElem matrixExport">
-      <button mat-stroked-button [disabled]='fragments.length === 0 || wordsFreqs.length === 0'>Экспорт term-text матрицы</button>
+      <button mat-stroked-button [disabled]='fragments.length === 0 || wordsFreqs.length === 0' (click)='exportTermTextMatrix()'>Экспорт term-text матрицы</button>
     </div>
     <div class="settingsElem biGrammsBaseInput">
       <mat-form-field >
@@ -48,13 +43,8 @@
       (click)='calculateBiGrammsFreqs()'>Частоты биграмм</button>
     </div>
     <div class="settingsElem freqExportButton">
-      <!--
-      <input type='checkbox' [checked]='selectAll' name="checkAllElemsChB" (change)='selectAllChBChanged(selectAll)'>
-      <label for="checkAllElemsChB">Выбрать все</label>
-      -->
-
       <mat-checkbox [(ngModel)]='selectAll' (change)='selectAllChBChanged(selectAll)'  style="margin-right: 1vw;">Выбрать все</mat-checkbox>
-      <button mat-stroked-button [disabled]='wordsFreqs.length === 0'>Экспорт частот</button>
+      <button mat-stroked-button [disabled]='wordsFreqs.length === 0' (click)='exportWordsFreqs()'>Экспорт частот</button>
     </div>
     <div class="settingsElem sortBySelect">
       <mat-form-field>
@@ -78,20 +68,10 @@
         </mat-card-header>
         <mat-card-content>
           <div>
-            <mat-checkbox [(ngModel)]='woFreq.useForMatrix'>Использовать</mat-checkbox>
-            <!--
-              <input type='checkbox' [checked]='woFreq.useForMatrix' name="useWordFormForMatrixChB">
-            <label for="useWordFormForMatrixChB">Использовать</label>
-            -->
-            
+            <mat-checkbox [(ngModel)]='woFreq.useForMatrix' (change)='useForMatrixChBChanged(woFreq)'>Использовать</mat-checkbox>
           </div>
           <div>
-            <mat-checkbox [(ngModel)]='woFreq.needWordForms' [disabled]='biGrammsMode'>Словоформы</mat-checkbox>
-            <!--
-              <input type='checkbox' [checked]='woFreq.needWordForms' name="wordFormsChB" [disabled]='biGrammsMode'>
-            <label for="wordFormsChB">Словоформы</label>
-            -->
-            
+            <mat-checkbox [(ngModel)]='woFreq.needWordForms' [disabled]='biGrammsMode' (change)='wordWormsChBChanged(woFreq)'>Словоформы</mat-checkbox>
           </div>
         </mat-card-content>
           <mat-card-actions>

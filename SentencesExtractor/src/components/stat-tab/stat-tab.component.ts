@@ -111,32 +111,32 @@ export class StatTabComponent implements OnInit {
     this.fragments.forEach((f: Fragment) => {
       // токенизация и очистка
       let fragWords: Array<string> = f.content.split(this.toWordsSlitterRegex).filter(x => x.length > 0);
-        fragWords = fragWords
-          .filter(w => w !== undefined && w.length > 0)
-          .map(w => this.lingvService.trimWord(w));
-        // подсчет частот
-        fragWords.forEach((w: string) => {
-          w = w.toLowerCase().trim();
+      fragWords = fragWords
+        .filter(w => w !== undefined && w.length > 0)
+        .map(w => this.lingvService.trimWord(w));
+      // подсчет частот
+      fragWords.forEach((w: string) => {
+        w = w.toLowerCase().trim();
+        if (!w.match(/^[\s]+$/) && w.length > 0){
           if(!freqs[w]){
             freqs[w] = 1;
           }
           else{
             freqs[w]++;
           }
-        });
+        }
+      });
     });
 
     // отсеить не имеющие минимальной частоты (minFreq) из freqs и добавить в итоговый массив
     let counter = 0;
     Object.keys(freqs).forEach((w: string) => {
-      if(freqs[w] >= this.minFreq){
-        if(!this.removeStopWords || this.removeStopWords && !this.stopWords.has(w)){
-          const wf = new WordFreq();
-          wf.id = counter++;
-          wf.content = w;
-          wf.freq = freqs[w];
-          this.wordsFreqs.push(wf);
-        }
+      if(!this.removeStopWords || this.removeStopWords && !this.stopWords.has(w)){
+        const wf = new WordFreq();
+        wf.id = counter++;
+        wf.content = w;
+        wf.freq = freqs[w];
+        this.wordsFreqs.push(wf);
       }
     });
 
@@ -156,16 +156,14 @@ export class StatTabComponent implements OnInit {
     const bigrammsBase = rawWords[0].toLowerCase().trim();
 
     for(let i = 0; i < this.fragments.length; i++){
-      let fragWords: Array<string> = this.fragments[i].content.split(this.toWordsSlitterRegex).filter(x => x.length > 0);
-      fragWords = fragWords
-        .filter(w => w !== undefined && w.length > 0)
+      let fragWords: Array<string> = 
+        this.fragments[i].content.split(this.toWordsSlitterRegex)
+        .filter(x => x.length > 0)
+        .filter(x => !x.match(/^\s+$/))
         .map(w => this.lingvService.trimWord(w));
-
-      for(var w = 0; w < fragWords.length; w++){
-        if(bigrammsBaseSet.has(fragWords[w]) && w+1 != fragWords.length){
-          //const biGramm = 
-          //  fragWords[w].toLowerCase().trim() + ' ' + fragWords[w+1].toLowerCase().trim();
-          
+      
+      for(var w = 0; w < fragWords.length-1; w++) {
+        if(bigrammsBaseSet.has(fragWords[w]) && fragWords[w+1].toLowerCase().trim().length > 0){
           const biGramm = bigrammsBase + ' ' + fragWords[w+1].toLowerCase().trim();
           if(!freqs[biGramm]){
             freqs[biGramm] = 1;
@@ -173,15 +171,13 @@ export class StatTabComponent implements OnInit {
           else{
             freqs[biGramm]++;
           }
-          
         }
       }
     }
 
-    // отсеить не имеющие минимальной частоты (minFreq) из freqs и добавить в итоговый массив
+    // добавить в итоговый массив
     let counter = 0;
     Object.keys(freqs).forEach((w: string) => {
-      if(freqs[w] >= this.minFreq && !w.match(/\s+/)){
         if(!this.removeStopWords || this.removeStopWords && !this.stopWords.has(w.split(' ')[1])){
           const wf = new WordFreq();
           wf.id = counter++;
@@ -189,7 +185,6 @@ export class StatTabComponent implements OnInit {
           wf.freq = freqs[w];
           this.wordsFreqs.push(wf);
         }
-      }
     });
 
     this.wordsFreqs = this.wordsFreqs.sort((a,b) => b.freq - a.freq);
@@ -200,7 +195,6 @@ export class StatTabComponent implements OnInit {
   }
 
   selectAllChBChanged(val: boolean): void {
-    this.selectAll = !this.selectAll;
     if(this.selectAll === true) {
       this.wordsFreqs.forEach((wf: WordFreq) => {
         this.wordsFreqsToUseForMatrixExport.push(wf);
@@ -213,7 +207,6 @@ export class StatTabComponent implements OnInit {
         wf.useForMatrix = false;
       });
     }
-    
   }
 
   sorByChanged(event): void {
@@ -227,10 +220,159 @@ export class StatTabComponent implements OnInit {
   }
 
   openWordFormsDialog(wf: WordFreq): void {
+    wf.needWordForms = true;
+    wf.useForMatrix = true;
     const dialogRef = this.dialog.open(WordFormsModalComponent, {
       data: wf,
       // maxHeight: '30vw'
     });
   }
 
+  exportWordsFreqs(){
+    let fileContent = '';
+    this.wordsFreqs.forEach((f: WordFreq) => {
+      fileContent += f.content + '\t' + f.freq;
+      fileContent += '\r\n';
+    });
+
+    var element = document.createElement('a');
+    element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(fileContent));
+    element.setAttribute('download', 'freqs.txt');
+
+    element.style.display = 'none';
+    document.body.appendChild(element);
+
+    element.click();
+
+    document.body.removeChild(element);
+  }
+
+  exportTermTextMatrixForWords(){
+    let fileContent = '';
+    let counter = 0;
+    const words = this.wordsFreqs.filter(x => x.useForMatrix === true && x.freq >= this.minFreq);
+
+    fileContent += '\t';
+    for(let w = 0; w < words.length; w++){
+      fileContent += words[w].content + '\t';
+    }
+    fileContent += '\r\n';
+
+    for(let f = 0; f < this.fragments.length; f++){
+      fileContent += this.fragments[f].content.replace('\t',' ') + '\t'; 
+      let fragWords: Array<string> = this.fragments[f].content
+        .split(this.toWordsSlitterRegex)
+        .filter(x => x.length > 0)
+        .map(x => x.toLowerCase());
+      
+      fragWords = fragWords
+        .map(w => this.lingvService.trimWord(w).toLowerCase())
+        .filter(w => w.length > 0);
+      let fragWordsSet = new Set<string>(fragWords);
+      for(let w = 0; w < words.length; w++){
+        if(words[w].forms != undefined && words[w].forms.length == 0 && fragWordsSet.has(words[w].content)){
+          counter++;
+        }
+        if(words[w].forms != undefined && words[w].needWordForms === true){
+          for(let form = 0; form < words[w].forms.length; form++){
+            if(fragWordsSet.has(words[w].forms[form].raw)){
+              counter++;
+              break;
+            }
+          }
+        }        
+        fileContent += counter + '\t';
+        counter = 0;
+      }
+      fileContent += '\r\n';
+    }
+
+    var element = document.createElement('a');
+    element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(fileContent));
+    element.setAttribute('download', 'freqs.txt');
+
+    element.style.display = 'none';
+    document.body.appendChild(element);
+
+    element.click();
+
+    document.body.removeChild(element);
+  }
+
+  exportTermTextMatrixForBiGramms(){
+    let fileContent = '';
+    let counter = 0;
+    const words = this.wordsFreqs.filter(x => x.useForMatrix === true && x.freq >= this.minFreq);
+
+    const rawWords = [];
+    this.biGrammsBaseInput.trim().split(' ').forEach(w => {
+      rawWords.push(w.toLowerCase());
+    });
+    const bigrammsBaseSet = new Set(rawWords);
+
+    fileContent += '\t';
+    for(let w = 0; w < words.length; w++){
+      fileContent += words[w].content + '\t';
+    }
+    fileContent += '\r\n';
+    
+    for(let f = 0; f < this.fragments.length; f++){
+      fileContent += this.fragments[f].content.replace('\t',' ') + '\t'; 
+      let fragWords: Array<string> = this.fragments[f].content
+        .split(this.toWordsSlitterRegex)
+        .map(w => this.lingvService.trimWord(w).toLowerCase())
+        .filter(x => x.length > 0);
+      
+      for(let x = 0; x < words.length; x++){
+        for(let w = 0; w < fragWords.length - 1 ; w++){
+          if((fragWords[w] + ' ' + fragWords[w+1]) == words[x].content)
+          counter++;
+        }
+        fileContent += counter + '\t';
+        counter = 0;
+      }
+      
+      fileContent += '\r\n';
+    }
+
+    var element = document.createElement('a');
+    element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(fileContent));
+    element.setAttribute('download', 'freqs.txt');
+
+    element.style.display = 'none';
+    document.body.appendChild(element);
+
+    element.click();
+
+    document.body.removeChild(element);
+  }
+
+  exportTermTextMatrix(){
+    if(this.biGrammsMode === true){
+      this.exportTermTextMatrixForBiGramms();
+    }
+    else{
+      this.exportTermTextMatrixForWords();
+    }
+  }
+
+  useForMatrixChBChanged(wf: WordFreq){
+    
+  }
+
+  wordWormsChBChanged(wf: WordFreq){
+    if(wf.needWordForms === true){
+      this.lingvService.getWordForm(wf.content).subscribe((x: WordForm[]) => {
+        if(wf.forms.length === 0){
+          x.forEach(f => {
+            f.checked = true;
+            wf.forms.push(f);
+          });
+        }
+      });
+    }
+    else{
+      wf.forms = [];
+    }
+  }
 }

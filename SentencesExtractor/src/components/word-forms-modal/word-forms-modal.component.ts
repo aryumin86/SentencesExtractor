@@ -11,22 +11,30 @@ import { WordForm } from 'src/app/Entities/WordForm';
 })
 export class WordFormsModalComponent implements OnInit {
 
-  wordForms: Array<WordForm>;
-
   constructor(private lingvService: LingvService, public dialogRef: MatDialogRef<WordFormsModalComponent>,
     @Inject(MAT_DIALOG_DATA) public wf: WordFreq) { }
 
   ngOnInit() {
-    this.wordForms = new Array<WordForm>();
+    if(!this.wf.forms){
+      this.wf.forms = new Array<WordForm>();
+    }
     this.lingvService.getWordForm(this.wf.content).subscribe((x: WordForm[]) => {
-      x.forEach(f => {
-        f.checked = true;
-        this.wordForms.push(f);
-      });
+      if(this.wf.forms.length === 0){
+        x.forEach(f => {
+          f.checked = true;
+          this.wf.forms.push(f);
+        });
+      }
     });
   }
 
   onCancelClick(): void {
+    this.wf.useForMatrix = false;
+    this.wf.needWordForms = false;
+    this.dialogRef.close();
+  }
+
+  onOklicked(): void {
     this.dialogRef.close();
   }
 }

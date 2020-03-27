@@ -135,21 +135,6 @@ export class FragmentsTabComponent implements OnInit {
     });
   }
 
-  /*
-  trimWord(wordRaw: string): string {
-    const regexWordGroupName = 'word';
-    let res = '';
-    try {
-      const matchArray = wordRaw.match(this.wordsTrimmers);
-        res = matchArray.groups[regexWordGroupName];
-    } catch (err) {
-      // console.error(wordRaw);
-      // console.error(err);
-    }
-    return res;
-  }
-  */
-
   tokenizeTextToFragments(te: string): Array<string> {
     return te.split(this.sentencesSplittersRegex);
   }
