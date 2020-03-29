@@ -30,7 +30,7 @@ constructor(private http: HttpClient) {
       }
     });
 
-    this.wordsTrimmers = /^[\/\\@#%^&*()\-_=+\[\]{}~±§<>]*(?<word>[a-zA-Zа-яА-Я0-9\-]+)[\/\\@#%^&*()\-_=+\[\]{}~±§<>]*$/;
+    this.wordsTrimmers = new RegExp('^[\/\\@#%^&*()\-_=+\[\]{}~±§<>]*(?<word>[a-zA-Zа-яА-Я0-9\-]+)[\/\\@#%^&*()\-_=+\[\]{}~±§<>]*$');
 }
 
   getWordForm(word: string) {
