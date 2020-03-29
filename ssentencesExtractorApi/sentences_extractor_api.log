@@ -2016,3 +2016,34 @@ INFO  29 Mar 2020 11:27:32 Content root path: /Users/aryumin/Documents/soft_proj
 WARN  29 Mar 2020 11:37:55 Failed to determine the https port for redirect.
 INFO  29 Mar 2020 11:37:55 ::1: Word forms requested for word: 'friends'
 INFO  29 Mar 2020 12:19:35 Application is shutting down...
+INFO  29 Mar 2020 15:57:30 Now listening on: http://localhost:44381
+INFO  29 Mar 2020 15:57:30 Application started. Press Ctrl+C to shut down.
+INFO  29 Mar 2020 15:57:30 Hosting environment: Development
+INFO  29 Mar 2020 15:57:30 Content root path: /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi
+WARN  29 Mar 2020 16:00:27 Failed to determine the https port for redirect.
+INFO  29 Mar 2020 16:00:27 ::1: Word forms requested for word: 'friend'
+INFO  29 Mar 2020 17:04:18 ::1: Word forms requested for word: 'тест'
+INFO  29 Mar 2020 17:04:27 ::1: Word forms requested for word: 'тест'
+INFO  29 Mar 2020 17:04:39 ::1: Word forms requested for word: 'test'
+INFO  29 Mar 2020 17:10:37 ::1: Word forms requested for word: 'test'
+INFO  29 Mar 2020 17:10:42 ::1: Word forms requested for word: 'test'
+INFO  29 Mar 2020 17:15:34 Application is shutting down...
+INFO  29 Mar 2020 17:55:30 Now listening on: http://localhost:44381
+INFO  29 Mar 2020 17:55:30 Application started. Press Ctrl+C to shut down.
+INFO  29 Mar 2020 17:55:30 Hosting environment: Development
+INFO  29 Mar 2020 17:55:30 Content root path: /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi
+WARN  29 Mar 2020 17:55:31 Failed to determine the https port for redirect.
+INFO  29 Mar 2020 17:56:25 ::1: Word forms requested for word: 'корова'
+INFO  29 Mar 2020 17:56:46 ::1: Word forms requested for word: 'test'
+INFO  29 Mar 2020 17:56:59 ::1: Word forms requested for word: 'корова'
+INFO  29 Mar 2020 17:57:26 ::1: Word forms requested for word: 'корова'
+INFO  29 Mar 2020 18:01:42 ::1: Word forms requested for word: 'test'
+INFO  29 Mar 2020 18:01:53 ::1: Word forms requested for word: 'test'
+INFO  29 Mar 2020 19:17:34 Now listening on: http://[::]:44381
+INFO  29 Mar 2020 19:17:34 Application started. Press Ctrl+C to shut down.
+INFO  29 Mar 2020 19:17:34 Hosting environment: Development
+INFO  29 Mar 2020 19:17:34 Content root path: /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi
+WARN  29 Mar 2020 19:18:36 Failed to determine the https port for redirect.
+INFO  29 Mar 2020 19:18:36 ::1: Word forms requested for word: 'friend'
+INFO  29 Mar 2020 19:18:40 ::1: Word forms requested for word: 'тест'
+INFO  29 Mar 2020 19:18:45 Application is shutting down...

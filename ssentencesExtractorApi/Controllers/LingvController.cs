@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Web;
 using Microsoft.AspNetCore.Mvc;
 using ssentencesExtractorApi.Entities;
 using ssentencesExtractorApi.Repos;
@@ -20,6 +21,7 @@ namespace ssentencesExtractorApi.Controllers
         
         [Route("GetWordForms")]
         public IEnumerable<WordForm> GetWordForms(string wordForm){
+            wordForm = HttpUtility.UrlDecode(wordForm);
             var reqInfo = new RequestInfo(){
                 ClientIPAddress = HttpContext.Connection.RemoteIpAddress,
                 Message = $"Word forms requested for word: '{wordForm}'"

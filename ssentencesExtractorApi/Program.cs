@@ -21,7 +21,7 @@ namespace ssentencesExtractorApi
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>()
-                    .UseUrls("http://localhost:44381");
+                    .UseUrls("http://*:44381");
                 });
     }
 }

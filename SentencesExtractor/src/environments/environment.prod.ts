@@ -1,6 +1,6 @@
 export const environment = {
   production: true,
-  lingvApiUrl: 'http://localhost:44381/lingv/',
-  loggerApiUrl: 'http://localhost:44381/MainLogger/',
-  sendMailApiUrl: 'http://localhost:44381/SendMail/'
+  lingvApiUrl: 'http://sentencesextractor-api.content-analysis.ru/lingv/',
+  loggerApiUrl: 'http://sentencesextractor-api.content-analysis.ru/MainLogger/',
+  sendMailApiUrl: 'http://sentencesextractor-api.content-analysis.ru/SendMail/'
 };

@@ -37,9 +37,14 @@ namespace ssentencesExtractorApi
                 options.AddPolicy(MyAllowSpecificOrigins,
                 builder =>
                 {
-                    builder.SetIsOriginAllowed(origin => 
-                        new Uri(origin).Host == "localhost")
+                    //builder.SetIsOriginAllowed(origin => 
+                    //    new Uri(origin).Host == "localhost")
+                    //    .AllowAnyHeader()
+                    //    .AllowAnyMethod();
+
+                    builder
                         .AllowAnyHeader()
+                        .AllowAnyOrigin()
                         .AllowAnyMethod();
                 });
             });
