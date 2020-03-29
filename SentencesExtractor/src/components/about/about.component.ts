@@ -7,9 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AboutComponent implements OnInit {
 
+  emailReplacor = 'Показать email';
+
   constructor() { }
 
   ngOnInit() {
+  }
+
+  showMyEmail(){
+    this.emailReplacor = 'aryumin@aryumin.ru';
   }
 
 }

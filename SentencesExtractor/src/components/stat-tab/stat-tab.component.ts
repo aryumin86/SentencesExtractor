@@ -289,7 +289,7 @@ export class StatTabComponent implements OnInit {
 
     var element = document.createElement('a');
     element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(fileContent));
-    element.setAttribute('download', 'freqs.txt');
+    element.setAttribute('download', 'matrix.txt');
 
     element.style.display = 'none';
     document.body.appendChild(element);
@@ -337,7 +337,7 @@ export class StatTabComponent implements OnInit {
 
     var element = document.createElement('a');
     element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(fileContent));
-    element.setAttribute('download', 'freqs.txt');
+    element.setAttribute('download', 'matrix.txt');
 
     element.style.display = 'none';
     document.body.appendChild(element);

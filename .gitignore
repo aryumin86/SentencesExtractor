@@ -1,3 +1,5 @@
 ssentencesExtractorApi/sentences_extractor_api.log
 ssentencesExtractorApi/obj/Debug/netcoreapp3.1/ssentencesExtractorApi.dll
 ssentencesExtractorApi/obj/Debug/netcoreapp3.1/ssentencesExtractorApi.pdb
+ssentencesExtractorApi/bin
+ssentencesExtractorApi/obj/Release

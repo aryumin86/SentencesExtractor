@@ -43,6 +43,7 @@
 
 .freqExportButton {
     grid-area: freqExportButton;
+    display: inline-block;
 }
 
 .morfologyButton {
