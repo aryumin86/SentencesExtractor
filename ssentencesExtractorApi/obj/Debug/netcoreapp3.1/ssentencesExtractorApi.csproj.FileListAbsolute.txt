@@ -83,3 +83,5 @@ L:/projects/LearnSmth/Angu/SentencesExtractor/ssentencesExtractorApi/obj/Debug/n
 /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi/obj/Debug/netcoreapp3.1/staticwebassets/ssentencesExtractorApi.StaticWebAssets.xml
 /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi/obj/Debug/netcoreapp3.1/ssentencesExtractorApi.dll
 /Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi/obj/Debug/netcoreapp3.1/ssentencesExtractorApi.pdb
+/Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi/obj/Debug/netcoreapp3.1/ssentencesExtractorApi.csproj.CoreCompileInputs.cache
+/Users/aryumin/Documents/soft_projects/net_core_projects/sentencesExtractor/ssentencesExtractorApi/obj/Debug/netcoreapp3.1/ssentencesExtractorApi.genruntimeconfig.cache
